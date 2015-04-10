@@ -31,3 +31,16 @@
 .aui-theme-default.moonsharks #quickscrum a {
     color: white !important;
 }
+.aui-theme-default.moonsharks #ghx-chart-view .overlay {
+    background: #000000 url('http://www.skitzo-frenik.com/Img/Watchmen/Smile-Medium.jpg') bottom left no-repeat;
+    background-size: 200px 200px;
+}
+.aui-theme-default.moonsharks .ghx-columns {
+    background: #000 url('https://s3.amazonaws.com/locallistings.dev.websimages.com/3-shark-moon-600x600.jpg') no-repeat center;
+}
+.aui-theme-default.moonsharks .ghx-columns .ghx-column {
+    background-color: transparent;
+}
+.aui-theme-default.moonsharks #ghx-pool {
+    background-color: #000;
+}
