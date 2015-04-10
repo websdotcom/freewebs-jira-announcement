@@ -1,18 +1,33 @@
 .aui-theme-default.moonsharks #header .aui-header #logo a img,
 .aui-theme-default.moonsharks #announcement-banner,
-.aui-theme-default.moonsharks.page-type-dashboard #dashboard.v-tabs ul.vertical { display: none; }
-.aui-theme-default.moonsharks #header .aui-header #logo a { height: 100px; width: 100px; background: transparent url('http://imageprocessor.websimages.com/fit/100x100/s3.amazonaws.com/locallistings.dev.websimages.com/Left+Shark+Side+of+the+Moon.png') no-repeat }
-.aui-theme-default.moonsharks #header nav.aui-header { min-height: 100px; }
-.aui-theme-default.moonsharks #header .aui-header { background: #262C3A; }
-.aui-theme-default.moonsharks #header .local { border-top: 1px solid #f5f5f5; }
-.aui-theme-default.moonsharks #header .local .primary>ul>li.selected { background-color: #f0f0f0; }
-.aui-theme-default.moonsharks #header .aui-header #quickscrum { top: 80px; }
-.aui-theme-default.moonsharks #header .aui-header #quickscrum div { display: inline-block; }
-.aui-theme-default.moonsharks #header .aui-header #quickscrum .quickscrum-top-row { border-right: 1px solid #FFF; padding-right: 4px; margin-right: 4px; }
+.aui-theme-default.moonsharks.page-type-dashboard #dashboard.v-tabs ul.vertical {
+    display: none;
+}
+.aui-theme-default.moonsharks #header .aui-header #logo a {
+    height: 100px;
+    width: 100px;
+    background: transparent url('https://s3.amazonaws.com/locallistings.dev.websimages.com/Left+Shark+Side+of+the+Moon+(Small).png') no-repeat;
+}
+.aui-theme-default.moonsharks #header nav.aui-header {
+    min-height: 100px;
+}
+.aui-theme-default.moonsharks #header .aui-header {
+    background: #262C3A;
+}
+.aui-theme-default.moonsharks #header .local {
+    border-top: 1px solid #f5f5f5;
+}
+.aui-theme-default.moonsharks #header .local .primary > ul > li.selected {
+    background-color: #f0f0f0;
+}
 .aui-theme-default.moonsharks #header .local,
-.aui-theme-default.moonsharks #header .local .primary>ul>li,
-.aui-theme-default.moonsharks #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #252525; }
-.aui-theme-default.moonsharks #header .aui-header .secondary>ul>li { background: transparent; }
+.aui-theme-default.moonsharks #header .local .primary > ul > li,
+.aui-theme-default.moonsharks #header .aui-header .secondary > ul > li:hover > span.drop-wrap > a:hover > span { 
+    background: #252525;
+}
+.aui-theme-default.moonsharks #header .aui-header .secondary > ul > li {
+    background: transparent;
+}
 .aui-theme-default.moonsharks #quickscrum a {
     color: white !important;
 }
