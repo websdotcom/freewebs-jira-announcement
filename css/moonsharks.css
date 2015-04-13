@@ -37,9 +37,6 @@
 .aui-theme-default.moonsharks #header .aui-header .secondary > ul > li {
     background: transparent;
 }
-.aui-theme-default.moonsharks #quickscrum a {
-    color: white !important;
-}
 .aui-theme-default.moonsharks .ghx-work {
     background: #000 url('https://s3.amazonaws.com/locallistings.dev.websimages.com/3-shark-moon-600x600.jpg') no-repeat center;
 }
