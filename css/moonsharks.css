@@ -1,18 +1,27 @@
+.aui-theme-default.moonsharks #header nav.aui-header {
+    min-height: 110px;
+}
+.aui-theme-default.moonsharks #header .aui-header {
+    background: #000;
+}
+.aui-theme-default.moonsharks #header .aui-nav {
+    z-index: 1;
+    position: relative;
+}
+.aui-theme-default.moonsharks #header .aui-header #logo {
+    z-index: 0;
+    position: relative; 
+}
 .aui-theme-default.moonsharks #header .aui-header #logo a img,
 .aui-theme-default.moonsharks #announcement-banner,
 .aui-theme-default.moonsharks.page-type-dashboard #dashboard.v-tabs ul.vertical {
     display: none;
 }
 .aui-theme-default.moonsharks #header .aui-header #logo a {
-    height: 100px;
-    width: 100px;
-    background: transparent url('https://s3.amazonaws.com/locallistings.dev.websimages.com/Left+Shark+Side+of+the+Moon+(Small).png') no-repeat;
-}
-.aui-theme-default.moonsharks #header nav.aui-header {
-    min-height: 100px;
-}
-.aui-theme-default.moonsharks #header .aui-header {
-    background: #262C3A;
+    height: 110px;
+    width: 760px;
+    position: absolute;
+    background: transparent url('https://s3.amazonaws.com/locallistings.dev.websimages.com/moon%2Bsharks%2Bbanner%2B(outline)-100x100.png') bottom left no-repeat;
 }
 .aui-theme-default.moonsharks #header .local {
     border-top: 1px solid #f5f5f5;
