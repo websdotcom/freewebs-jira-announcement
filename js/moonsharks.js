@@ -1,7 +1,7 @@
 if (WEBS) {
 	WEBS.currentBoardDeferred.then(function() {
 		if (WEBS.currentBoard.moonSharkBoard) {
-			var moonSharkId = WEBS.boards.MoonSharks.id;
+			var moonSharkId = WEBS.boards['Moon Sharks'].id;
 			var moonSharkKanbanId = WEBS.boards.MoonSharksKanban.id;
 			if (window.location.href.indexOf('rapidView=' + moonSharkId) > 0) {
 				window.console && console.log('welcome moonsharks!');
