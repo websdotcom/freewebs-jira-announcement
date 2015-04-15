@@ -47,3 +47,15 @@
 #jira.ghx-contrast-high.aui-theme-default.moonsharks .ghx-columns .ghx-column:nth-child(even) {
     background-color: transparent;
 }
+/* swimlanes */
+.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-iconfont,
+.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-heading span .ghx-description {
+    color: #bdbdbd;
+}
+.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-heading span {
+    color: #808080;
+}
+.aui-theme-default.moonsharks .ghx-swimlane-header:after {
+    background-color: transparent;
+    box-shadow: none;
+}
