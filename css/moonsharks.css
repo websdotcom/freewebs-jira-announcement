@@ -49,10 +49,10 @@
 }
 /* swimlanes */
 .aui-theme-default.moonsharks .ghx-swimlane-header .ghx-iconfont,
-.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-heading span .ghx-description {
+.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-heading span {
     color: #bdbdbd;
 }
-.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-heading span {
+.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-heading span .ghx-description {
     color: #808080;
 }
 .aui-theme-default.moonsharks .ghx-swimlane-header:after {
