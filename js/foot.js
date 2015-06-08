@@ -23,3 +23,14 @@ setTimeout(function() {
 		});
 	}
 }, 1000);
+
+
+/*  Start JiraChat --
+jQuery(setInterval(function(){
+var $userInfo = jQuery('#header-details-user-fullname');
+	top.postMessage(JSON.stringify({ action:'heartbeat',
+	 user: $userInfo.attr('data-username'),
+	 name:  jQuery.trim($userInfo.text()),
+	 ticket: jQuery('#key-val').text() }), "*");
+}, 2000));
+-- End Jira Chat */

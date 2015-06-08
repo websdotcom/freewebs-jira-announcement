@@ -1,7 +1,11 @@
+jQuery().ready(function(){ if(jQuery('#header-details-user-fullname').length === 0){ jQuery('#helpEmail').show(); } });
+
+
+
 var USER;
 jQuery(function() {
-USER = jQuery('#header-details-user-fullname').data();
-console.log(USER);
+	USER = jQuery('#header-details-user-fullname').data();
+	console.log(USER);
 });
 var WEBS = {
 	boards: {
