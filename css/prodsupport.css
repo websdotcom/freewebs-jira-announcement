@@ -1,0 +1,19 @@
+/* Red - #cc3f2b */
+.aui-theme-default.prodSupport #header .aui-header,
+.aui-theme-default.prodSupport #header .aui-header .secondary>ul>li,
+.aui-theme-default.prodSupport .ghx-hero li a:hover,
+.aui-theme-default.prodSupport .ghx-modes .button:hover,
+.aui-theme-default.prodSupport .ghx-modes .button.active { background: #dc4e36; }
+.aui-theme-default.prodSupport #header .local,
+.aui-theme-default.prodSupport #header .local .primary>ul>li,
+.aui-theme-default.prodSupport #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #cc3f2b; }
+.aui-theme-default.prodSupport #header .local { border-top: 1px solid #b63024; }
+.aui-theme-default.prodSupport #header .local .primary>ul>li.selected { background-color: #F0F0F0; }
+.aui-theme-default.prodSupport #header .aui-header #logo a { height: 145px; width: 200px; background: url('http://s2.quickmeme.com/img/3a/3a3097df32c4d3b196aac1f2376d7908dbd73f5271a01f9dc4f3fe09520a0a59.jpg'); background-size: cover; }
+.aui-theme-default.prodSupport #header .aui-header #logo a img,
+.aui-theme-default.prodSupport #announcement-banner { display: none; }
+.aui-theme-default.prodSupport #header .local .primary > ul > li.selected > a { color: #000; }
+.aui-theme-default.prodSupport #header .local .primary > ul > li:hover > a { color: #000; }
+.aui-theme-default.prodSupport #quickscrum .quickscrum-category {
+	color: white !important;
+}

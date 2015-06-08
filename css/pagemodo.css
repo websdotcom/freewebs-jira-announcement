@@ -1,0 +1,21 @@
+.aui-theme-default.pagemodo #header .aui-header #logo a img,
+.aui-theme-default.pagemodo.page-type-dashboard #dashboard.v-tabs ul.vertical { display: none; }
+.aui-theme-default.pagemodo #header .aui-header #logo a { height: 60px; width: 200px; background: transparent url('http://www.pagemodo.com/assets/external/common/site_header.png') no-repeat  20px; }
+.aui-theme-default.pagemodo #header .aui-header { background: #252525; }
+.aui-theme-default.pagemodo #header .local { border-top: 1px solid #f5f5f5; }
+.aui-theme-default.pagemodo #header .local .primary>ul>li.selected { background-color: #f0f0f0; }
+.aui-theme-default.pagemodo #header .aui-header #quickscrum { display: none; }
+.aui-theme-default.pagemodo #header .local,
+.aui-theme-default.pagemodo #header .local .primary>ul>li,
+.aui-theme-default.pagemodo #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #252525; }
+.aui-theme-default.pagemodo #header .aui-header .secondary>ul>li { background: transparent; }
+.aui-theme-default.pagemodo #quickscrum .quickscrum-category {
+	color: white !important;
+}
+.pagemodo .aui-header-primary .aui-nav {
+	padding-top: 10px;
+	padding-left: 10px;
+}
+.pagemodo .aui-header .aui-header-secondary .aui-nav {
+	top: 9px;
+}

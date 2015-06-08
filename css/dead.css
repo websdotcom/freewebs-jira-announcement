@@ -1,0 +1,234 @@
+/*
+div[data-label-names*=FrontEnd]:before {
+	content: "F";
+	display: block;
+	position: absolute;
+	top: 48px;
+	left: 12px;
+	width: 16px;
+	height: 16px;
+        background: #F60;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        vertical-align: bottom;
+        line-height: 17px;
+        border-radius: 50%;
+        opacity: .3;
+}
+div[data-label-names*=BackEnd]:before {
+	content: "B";
+	display: block;
+	position: absolute;
+	top: 48px;
+	left: 12px;
+	width: 16px;
+	height: 16px;
+        background: #60F;
+        color: #fff;
+        font-size: 12px;
+        text-align: center;
+        vertical-align: bottom;
+        line-height: 17px;
+        border-radius: 50%;
+        opacity: .3;
+}*/
+
+
+.aui-theme-default.Zeki #header .aui-header,
+.aui-theme-default.Zeki #header .aui-header .secondary>ul>li,
+.aui-theme-default.Zeki .ghx-hero li a:hover,
+.aui-theme-default.Zeki .ghx-modes .button:hover,
+.aui-theme-default.Zeki .ghx-modes .button.active { background: #662d91; }
+.aui-theme-default.Zeki #header .local,
+.aui-theme-default.Zeki #header .local .primary>ul>li,
+.aui-theme-default.Zeki #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #440e62; }
+.aui-theme-default.Zeki #header .local { border-top: 1px solid #32004b; }
+.aui-theme-default.Zeki #header .local .primary>ul>li.selected { background-color: #F0F0F0; }
+.aui-theme-default.Zeki #header .aui-header #logo a { height: 70px; width: 70px; background: url('http://nickswider.com/jira/zeki.png') no-repeat; }
+.aui-theme-default.Zeki #header .aui-header { background: #662d91 url('http://members.webs.com/s/themes/hipster/v1.0/images/red/bg.png'); }
+.aui-theme-default.Zeki #header .aui-header #logo a img,
+.aui-theme-default.Zeki #announcement-banner { display: none; }
+.aui-theme-default.Zeki #header .local .primary > ul > li.selected > a { color: #000; }
+.aui-theme-default.Zeki #header .local .primary > ul > li:hover > a { color: #000; }
+.aui-theme-default.Zeki #quickscrum . {
+	color: white !important;
+}
+
+
+.aui-theme-default.snorelax #header .local,
+.aui-theme-default.snorelax #header .local .primary>ul>li,
+.aui-theme-default.snorelax #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #609858; }
+.aui-theme-default.snorelax #header .aui-header #logo a img,
+.aui-theme-default.snorelax #announcement-banner { display: none; }
+.aui-theme-default.snorelax #header .aui-header #logo a {
+	height: 111px; width: 128px;
+	background: url('http://nickswider.com/jira/snorelax-logo.png') no-repeat;
+	margin-left: -11px;
+}
+.aui-theme-default.snorelax #header .aui-header { background: #cfdfdc url('http://nickswider.com/jira/snorelax-tile.png'); }
+.aui-theme-default.snorelax #header .aui-header .secondary>ul>li,
+.aui-theme-default.snorelax #header .aui-header #quickscrum { background: #609858; }
+.aui-theme-default.snorelax #quickscrum .quickscrum-category {
+	color: white !important;
+}
+.snorelax .aui-header-primary .aui-nav {
+	padding-top: 27px;
+}
+.snorelax .aui-header-primary .aui-nav a {
+	color: #609858 !important;
+}
+
+
+.aui-theme-default.mustang #header .local,
+.aui-theme-default.mustang #header .local .primary>ul>li,
+.aui-theme-default.mustang #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #242424; }
+.aui-theme-default.mustang #header .aui-header #logo a img,
+.aui-theme-default.mustang #announcement-banner { display: none; }
+.aui-theme-default.mustang #header .aui-header #logo a {
+	height: 121px; width: 502px;
+	background: url('http://nickswider.com/jira/mustang_logo.png') no-repeat;
+	margin-left: -11px;
+}
+.aui-theme-default.mustang #header .aui-header { background: #242424 url('http://nickswider.com/jira/mustang_bg.png') repeat -19px 0; }
+.aui-theme-default.mustang #header .aui-header .secondary>ul>li,
+.aui-theme-default.mustang #header .aui-header #quickscrum { background: #242424; }
+.aui-theme-default.mustang #header .local { border-top: 1px solid #888; }
+.aui-theme-default.mustang #header .local .primary>ul>li.selected { background-color: #888; }
+.aui-theme-default.mustang .ghx-empty * { display:none; }
+.aui-theme-default.mustang .ghx-empty {
+	background: #242424 url('http://nickswider.com/jira/mustang_full.png') no-repeat 50% 50%;
+	background-size: cover;
+	opacity: .3;
+}
+.aui-theme-default.mustang #quickscrum .quickscrum-category {
+	color: white !important;
+}
+
+
+.aui-theme-default.crush.page-type-dashboard #dashboard.v-tabs { padding-left: 0; }
+.aui-theme-default.crush #announcement-banner,
+.aui-theme-default.crush #header .aui-header #logo a img,
+.aui-theme-default.crush.page-type-dashboard #dashboard.v-tabs ul.vertical { display: none; }
+.aui-theme-default.crush #header .aui-header #logo a { height: 81px; width: 341px; background: #fff url('http://nickswider.com/jira/crushLogo.png') no-repeat; }
+.aui-theme-default.crush #header .aui-header { background: #fff; }
+.aui-theme-default.crush #header .local { border-top: 1px solid #bbb; }
+.aui-theme-default.crush #header .local .primary>ul>li.selected { background-color: #f0f0f0; }
+.aui-theme-default.crush #header .aui-header .secondary>ul>li a,
+.aui-theme-default.crush #header .aui-header #quickscrum .quickscrum-category { color: #333 !important; }
+.aui-theme-default.crush #header .aui-header .secondary>ul>li { background: transparent; }
+.aui-theme-default.crush #header .local,
+.aui-theme-default.crush #header .local .primary>ul>li,
+.aui-theme-default.crush #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #d0d0d0; }
+
+
+
+.aui-theme-default.peeps.page-type-dashboard #dashboard.v-tabs { padding-left: 0; }
+.aui-theme-default.peeps #announcement-banner,
+.aui-theme-default.peeps #header .aui-header #logo a img,
+.aui-theme-default.peeps.page-type-dashboard #dashboard.v-tabs ul.vertical { display: none; }
+.aui-theme-default.peeps #header .aui-header #logo a { height: 80px; width: 90px; background: #fff url('http://nickswider.com/jira/peep.jpg') no-repeat 10px 0; background-size: 80px; }
+.aui-theme-default.peeps #header .aui-header { background: #fff; }
+.aui-theme-default.peeps #header .local { border-top: 1px solid #bbb; }
+.aui-theme-default.peeps #header .local .primary>ul>li.selected { background-color: #f0f0f0; }
+.aui-theme-default.peeps #header .aui-header .secondary>ul>li a,
+.aui-theme-default.peeps #header .aui-header #quickscrum .quickscrum-category { color: #333 !important; }
+.aui-theme-default.peeps #header .aui-header .secondary>ul>li { background: transparent; }
+.aui-theme-default.peeps #header .local,
+.aui-theme-default.peeps #header .local .primary>ul>li,
+.aui-theme-default.peeps #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #d0d0d0; }
+
+
+.aui-theme-default.musketeers.page-type-dashboard #dashboard.v-tabs { padding-left: 0; }
+.aui-theme-default.musketeers #announcement-banner,
+.aui-theme-default.musketeers #header .aui-header #logo a img,
+.aui-theme-default.musketeers.page-type-dashboard #dashboard.v-tabs ul.vertical { display: none; }
+.aui-theme-default.musketeers #header .aui-header #logo a { height: 80px; width: 90px; background: #fff url('http://nickswider.com/jira/musketeers.gif') no-repeat 10px 0; background-size: 80px; }
+.aui-theme-default.musketeers #header .aui-header { background: #fff; }
+.aui-theme-default.musketeers #header .local { border-top: 1px solid #bbb; }
+.aui-theme-default.musketeers #header .local .primary>ul>li.selected { background-color: #f0f0f0; }
+.aui-theme-default.musketeers #header .aui-header .secondary>ul>li a,
+.aui-theme-default.musketeers #header .aui-header #quickscrum .quickscrum-category { color: #333 !important; }
+.aui-theme-default.musketeers #header .aui-header .secondary>ul>li { background: transparent; }
+.aui-theme-default.musketeers #header .local,
+.aui-theme-default.musketeers #header .local .primary>ul>li,
+.aui-theme-default.musketeers #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #d0d0d0; }
+
+
+.aui-theme-default.seo.page-type-dashboard #dashboard.v-tabs { padding-left: 0; }
+.aui-theme-default.seo #announcement-banner,
+.aui-theme-default.seo #header .aui-header #logo a img,
+.aui-theme-default.seo.page-type-dashboard #dashboard.v-tabs ul.vertical { display: none; }
+.aui-theme-default.seo #header .aui-header { background: #fff; }
+.aui-theme-default.seo #header .local { border-top: 1px solid #bbb; }
+.aui-theme-default.seo #header .local .primary>ul>li.selected { background-color: #f0f0f0; }
+.aui-theme-default.seo #header .aui-header .secondary>ul>li a,
+.aui-theme-default.seo #header .aui-header #quickscrum .quickscrum-category { color: #333 !important; }
+.aui-theme-default.seo #header .aui-header .secondary>ul>li { background: transparent; }
+.aui-theme-default.seo #header .local,
+.aui-theme-default.seo #header .local .primary>ul>li,
+.aui-theme-default.seo #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #d0d0d0; }
+.aui-theme-default.seo0 #header .aui-header #logo a { height: 60px; width: 370px; background: #fff url('http://nickswider.com/jira/seoLogo.png') no-repeat; background-size: contain; margin: 5px 0 3px; }
+.aui-theme-default.seo1 #header .aui-header #logo a { height: 60px; width: 370px; background: #fff url('http://nickswider.com/jira/seoLogo2.png') no-repeat; background-size: contain; margin: 5px 0 3px; }
+.aui-theme-default.seo2 #header .aui-header #logo a { height: 60px; width: 370px; background: #fff url('http://nickswider.com/jira/seoLogo3.jpg') no-repeat; background-size: contain; margin: 5px 0 3px; }
+.aui-theme-default.seo3 #header .aui-header #logo a { height: 60px; width: 370px; background: #fff url('http://nickswider.com/jira/seoLogo4.jpg') no-repeat; background-size: contain; margin: 5px 0 3px; }
+
+
+/* Teal - #7efbf4 */
+.aui-theme-default.planetExpress #header .aui-header #logo a img,
+.aui-theme-default.planetExpress.page-type-dashboard #dashboard.v-tabs ul.vertical { display: none; }
+.aui-theme-default.planetExpress #header .aui-header #logo a { height: 110px; width: 200px; background: transparent url('http://nickswider.com/jira/planet_express.png') no-repeat 0 0; background-size: contain; }
+.aui-theme-default.planetExpress #header .aui-header { background: #73c3d6 url('http://nickswider.com/jira/planet_express_bg.png') repeat 0 25%; background-size: 50%; }
+.aui-theme-default.planetExpress #quickscrum,
+.aui-theme-default.planetExpress #header .local,
+.aui-theme-default.planetExpress #header .local .primary>ul>li,
+.aui-theme-default.planetExpress #header .aui-header .secondary>ul>li,
+.aui-theme-default.planetExpress #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span {
+        background: #7efbf4;
+}
+.aui-theme-default.planetExpress #quickscrum .quickscrum-category,
+.aui-theme-default.planetExpress #header .aui-header .secondary>ul>li a,
+.aui-theme-default.planetExpress #header .local .primary>ul>li a{
+        color: black !important;
+}
+.aui-theme-default.planetExpress #header .local .primary>ul>li.selected {
+        background: #f0f0f0;
+}
+.aui-theme-default.planetExpress .ghx-empty * { display:none; }
+.aui-theme-default.planetExpress .ghx-empty {
+	background: #73c3d6 url('http://nickswider.com/jira/planet_express.png') no-repeat 70% center;
+	background-size: 120%;
+	opacity: .3;
+}
+
+
+/* Blue - #89c1cf */
+.aui-theme-default.planetExpress2 #header .aui-header #logo a img,
+.aui-theme-default.planetExpress2.page-type-dashboard #dashboard.v-tabs ul.vertical { display: none; }
+.aui-theme-default.planetExpress2 #header .aui-header #logo a { height: 110px; width: 200px; background: transparent url('http://nickswider.com/jira/planet_express2.png') no-repeat 0 0; background-size: contain; }
+.aui-theme-default.planetExpress2 #header .aui-header { background: #73c3d6 url('http://nickswider.com/jira/planet_express_bg.png') repeat 0 25%; background-size: 50%; }
+.aui-theme-default.planetExpress2 #quickscrum,
+.aui-theme-default.planetExpress2 #header .local,
+.aui-theme-default.planetExpress2 #header .local .primary>ul>li,
+.aui-theme-default.planetExpress2 #header .aui-header .secondary>ul>li,
+.aui-theme-default.planetExpress2 #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span {
+        background: #89c1cf;
+}
+.aui-theme-default.planetExpress2 #quickscrum .quickscrum-category,
+.aui-theme-default.planetExpress2 #header .aui-header .secondary>ul>li a,
+.aui-theme-default.planetExpress2 #header .local .primary>ul>li a{
+        color: black !important;
+}
+.aui-theme-default.planetExpress2 #header .local .primary>ul>li.selected {
+        background: #f0f0f0;
+}
+.aui-theme-default.planetExpress2 .ghx-empty * { display:none; }
+.aui-theme-default.planetExpress2 .ghx-empty {
+	background: #89c1cf url('http://nickswider.com/jira/planet_express2.png') no-repeat 70% center;
+	background-size: 120%;
+	opacity: .3;
+}
+
+
+
+

@@ -1,0 +1,47 @@
+.aui-theme-default.design #header .aui-header,
+.aui-theme-default.design #header .aui-header .secondary>ul>li,
+.aui-theme-default.design .ghx-hero li a:hover,
+.aui-theme-default.design .ghx-modes .button:hover,
+.aui-theme-default.design .ghx-modes .button.active { background: #2d813f; }
+.aui-theme-default.design #header .local,
+.aui-theme-default.design #header .local .primary>ul>li,
+.aui-theme-default.design #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #236a32; }
+.aui-theme-default.design #header .local { border-top: 1px solid #175724; }
+.aui-theme-default.design #header .local .primary>ul>li.selected { background-color: #F0F0F0; }
+.aui-theme-default.design #header .aui-header #logo a { height: 100px; width: 369px; background: url('http://nickswider.com/jira/foxLogo.png') no-repeat; }
+.aui-theme-default.design #header .aui-header { background: #2d813f; }
+.aui-theme-default.design #header .aui-header #logo a img,
+.aui-theme-default.design #announcement-banner { display: none; }
+.aui-theme-default.design .ghx-empty * { display:none; }
+.aui-theme-default.design .ghx-empty {
+	background: #2d813f;
+	background-size: cover;
+	opacity: .3;
+}
+.aui-theme-default.design #quickscrum .quickscrum-category {
+	color: white !important;
+}
+
+.aui-theme-default.dangerrr #header .aui-header,
+.aui-theme-default.dangerrr #header .aui-header .secondary>ul>li,
+.aui-theme-default.dangerrr .ghx-hero li a:hover,
+.aui-theme-default.dangerrr .ghx-modes .button:hover,
+.aui-theme-default.dangerrr .ghx-modes .button.active { background: #f9aa00; }
+.aui-theme-default.dangerrr #header .local,
+.aui-theme-default.dangerrr #header .local .primary>ul>li,
+.aui-theme-default.dangerrr #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #e19400; }
+.aui-theme-default.dangerrr #header .local { border-top: 1px solid #c27a00; }
+.aui-theme-default.dangerrr #header .local .primary>ul>li.selected { background-color: #F0F0F0; }
+.aui-theme-default.dangerrr #header .aui-header #logo a { height: 260px; width: 480px; background: url('http://nickswider.com/jira/danger_logo.png') no-repeat; }
+.aui-theme-default.dangerrr #header .aui-header { background: #f9aa00; }
+.aui-theme-default.dangerrr #header .aui-header #logo a img,
+.aui-theme-default.dangerrr #announcement-banner { display: none; }
+.aui-theme-default.dangerrr .ghx-empty * { display:none; }
+.aui-theme-default.dangerrr .ghx-empty {
+	background: #f9aa00;
+	background-size: cover;
+	opacity: .3;
+}
+.aui-theme-default.dangerrr #quickscrum .quickscrum-category {
+	color: white !important;
+}

@@ -1,0 +1,18 @@
+.aui-theme-default.local #header .aui-header,
+.aui-theme-default.local #header .aui-header .secondary>ul>li,
+.aui-theme-default.local .ghx-hero li a:hover,
+.aui-theme-default.local .ghx-modes .button:hover,
+.aui-theme-default.local .ghx-modes .button.active { background: #243a4f; }
+.aui-theme-default.local #header .local,
+.aui-theme-default.local #header .local .primary>ul>li,
+.aui-theme-default.local #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #ba0d3e; }
+.aui-theme-default.local #header .local { border-top: 1px solid #a10b36; }
+.aui-theme-default.local #header .local .primary>ul>li.selected { background-color: #F0F0F0; }
+.aui-theme-default.local #header .aui-header #logo a { height: 14vh; min-height: 60px; width: 90px; background: url('http://nickswider.com/jira/localLegendsLogo.png') no-repeat center center; background-size: contain; }
+.aui-theme-default.local #header .aui-header #logo a img,
+.aui-theme-default.local #announcement-banner { display: none; }
+.aui-theme-default.local .ghx-empty * { display:none; }
+.aui-theme-default.local .ghx-empty {
+	background-color: #243a4f;
+	opacity: .3;
+}

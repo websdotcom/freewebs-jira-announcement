@@ -1,0 +1,14 @@
+.aui-theme-default.oline #header .aui-header,
+.aui-theme-default.oline #header .aui-header .secondary>ul>li,
+.aui-theme-default.oline .ghx-hero li a:hover,
+.aui-theme-default.oline .ghx-modes .button:hover,
+.aui-theme-default.oline .ghx-modes .button.active { background: #cfdfdc; }
+.aui-theme-default.oline #header .local,
+.aui-theme-default.oline #header .local .primary>ul>li,
+.aui-theme-default.oline #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #BBC9C6; }
+.aui-theme-default.oline #header .local { border-top: 1px solid #A4B9B5; }
+.aui-theme-default.oline #header .local .primary>ul>li.selected { background-color: #F0F0F0; }
+.aui-theme-default.oline #header .aui-header #logo a { height: 90px; width: 325px; background: url('http://zdyn.net/static/images/oline-jira-header.png') no-repeat; }
+.aui-theme-default.oline #header .aui-header { background-color: #31740E; }
+.aui-theme-default.oline #header .aui-header #logo a img,
+.aui-theme-default.oline #announcement-banner { display: none; }

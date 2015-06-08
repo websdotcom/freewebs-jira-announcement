@@ -1,0 +1,159 @@
+.aui-theme-default.flyingsquirrels #header .aui-header,
+.aui-theme-default.flyingsquirrels #header .aui-header .secondary>ul>li,
+.aui-theme-default.flyingsquirrels .ghx-hero li a:hover,
+.aui-theme-default.flyingsquirrels .ghx-modes .button:hover,
+.aui-theme-default.flyingsquirrels .ghx-modes .button.active { background: #d30e45; }
+.aui-theme-default.flyingsquirrels #header .local,
+.aui-theme-default.flyingsquirrels #header .local .primary>ul>li,
+.aui-theme-default.flyingsquirrels #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #ba0d3e; }
+.aui-theme-default.flyingsquirrels #header .local { border-top: 1px solid #a10b36; }
+.aui-theme-default.flyingsquirrels #header .local .primary>ul>li.selected { background-color: #F0F0F0; }
+.aui-theme-default.flyingsquirrels #header .aui-header #logo a { height: 60px; width: 169px; background: url('http://nickswider.com/jira/FlyingSquirrelsJira.jpg'); }
+.aui-theme-default.flyingsquirrels #header .aui-header #logo a img,
+.aui-theme-default.flyingsquirrels #announcement-banner { display: none; }
+.aui-theme-default.flyingsquirrels .ghx-work .ghx-column-headers .ghx-column,
+.aui-theme-default.flyingsquirrels .ghx-work .ghx-columns .ghx-column { /* background: rgba(211, 14, 69, .14);*/  }
+.aui-theme-default.flyingsquirrels .ghx-empty * { display:none; }
+.aui-theme-default.flyingsquirrels .ghx-empty {
+	background: rgba(211, 14, 69,.4)  url('http://nickswider.com/jira/FlyingSquirrelsLarge.png') no-repeat 50% 50%;
+	background-size: 120%;
+	opacity: .3;
+}
+
+.aui-theme-default.architects #header .aui-header,
+.aui-theme-default.architects #header .aui-header .secondary>ul>li,
+.aui-theme-default.architects .ghx-hero li a:hover,
+.aui-theme-default.architects .ghx-modes .button:hover,
+.aui-theme-default.architects .ghx-modes .button.active { background: #fff; }
+.aui-theme-default.architects nav.aui-header.aui-dropdown2-trigger-group a,
+.aui-theme-default.architects #quickscrum .quickscrum-category { color: #fff; }
+.aui-theme-default.architects #header .local,
+.aui-theme-default.architects #header .local .primary>ul>li,
+.aui-theme-default.architects #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #ba0d3e; }
+.aui-theme-default.architects #header .local { border-top: 1px solid #a10b36; }
+.aui-theme-default.architects #header .local .primary>ul>li.selected { background-color: #F0F0F0; }
+
+.aui-theme-default.architects #header .aui-header {
+        background: url('http://i.imgur.com/VQe2gWK.png') 0 11px repeat #2672a8;
+}
+.aui-theme-default.architects #header .aui-header #logo a {
+	height: 85px;
+	width: 400px;
+        margin-right: 20px;
+	background: url('http://i.imgur.com/Rblj6yr.png') no-repeat left center;
+	background-size: contain;
+  height: 63px;
+  margin: 3px 20px -3px 0;
+  background-size: 100%;
+}
+.aui-theme-default.architects #header .aui-header #logo a img,
+.aui-theme-default.architects #announcement-banner { display: none; }
+.aui-theme-default.architects .ghx-work .ghx-column-headers .ghx-column,
+.aui-theme-default.architects .ghx-work .ghx-columns .ghx-column { /* background: rgba(211, 14, 69, .14);*/  }
+.aui-theme-default.architects .ghx-empty * { display:none; }
+.aui-theme-default.architects .ghx-empty {
+	background: rgba(211, 14, 69,.4);
+	background-size: 120%;
+	opacity: .3;
+}
+.aui-theme-default.architects #create_link {
+	background: #fff;
+        color: #fff;
+        text-shadow: none;
+
+
+}
+.aui-theme-default.architects #create_link:hover {
+	background: #f0f0f0;
+        color: #f0f0f0;
+}
+.aui-theme-default.architects #create_link:after {
+	content: "Draft";
+	color: #1b85bc !important;
+	background: transparent;
+  margin: -45px;
+  padding-right: 42px;
+}
+
+.aui-theme-default.architects .ghx-column > .ghx-issue {
+        background: #ecf5f9;
+}
+.aui-theme-default.architects .ghx-column > .ghx-issue[data-label-names*=reopened-ticket] {
+	background: #FFD6D6 !important;
+}
+.aui-theme-default.architects .ghx-column > .ghx-issue[data-label-names*=reopened-ticket] a {
+}
+.aui-theme-default.architects .ghx-column > .ghx-issue[data-label-names*=reopened-ticket]:hover .ghx-end {
+	background: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.aui-theme-default.architects .ghx-column > .ghx-issue[data-label-names*=current-sprint-ticket] {
+        background: white;
+}
+.aui-theme-default.architects .ghx-column > .ghx-issue[data-label-names*=current-sprint-ticket]:after {
+        content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+        background: #888;
+	opacity: .07;
+        pointer-events: none;
+	background: transparent;
+	background-size: 210px;
+}
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-issue,
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-issue .ghx-grabber {
+        height: 34px;
+}
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-issue .ghx-avatar {
+        position: absolute;
+        top: 0px;
+        right: 0px;
+}
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-issue .ghx-end,
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-issue .ghx-summary,
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-issue .ghx-flags {
+        display: none;
+}
+
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-column[data-column-id="302"] .ghx-issue,
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-column[data-column-id="302"] .ghx-issue .ghx-grabber {
+        height: 42px;
+}
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-column[data-column-id="302"] .ghx-issue .ghx-avatar {
+        position: absolute;
+        top: 4px;
+        right: 4px;
+}
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-column[data-column-id="302"] .ghx-issue-content {
+        padding: 6px 10px 6px 38px;
+}
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-column[data-column-id="302"] .ghx-issue-fields {
+        padding-right: 32px;
+}
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-column[data-column-id="302"] .ghx-issue .ghx-key {
+        display: inline;
+        height: 0;
+        margin: 0;
+        padding: 0;
+}
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-column[data-column-id="302"] .ghx-issue .ghx-key a {
+        position: absolute;
+        z-index: 2;
+        opacity: 0;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        padding: 0;
+}
+.aui-theme-default.architects .ghx-swimlane[swimlane-id="291"] .ghx-columns .ghx-column[data-column-id="302"] .ghx-issue .ghx-summary {
+        display: block;
+        height: 2.2em;
+        overflow: hidden;
+}
