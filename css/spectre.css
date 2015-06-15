@@ -1,61 +1,61 @@
-.aui-theme-default.moonsharks #header nav.aui-header {
+.aui-theme-default.spectre #header nav.aui-header {
     min-height: 110px;
 }
-.aui-theme-default.moonsharks #header .aui-header {
+.aui-theme-default.spectre #header .aui-header {
     background: #000;
 }
-.aui-theme-default.moonsharks #header .aui-nav {
+.aui-theme-default.spectre #header .aui-nav {
     z-index: 1;
     position: relative;
 }
-.aui-theme-default.moonsharks #header .aui-header #logo {
+.aui-theme-default.spectre #header .aui-header #logo {
     z-index: 0;
     position: relative; 
 }
-.aui-theme-default.moonsharks #header .aui-header #logo a img,
-.aui-theme-default.moonsharks #announcement-banner,
-.aui-theme-default.moonsharks.page-type-dashboard #dashboard.v-tabs ul.vertical {
+.aui-theme-default.spectre #header .aui-header #logo a img,
+.aui-theme-default.spectre #announcement-banner,
+.aui-theme-default.spectre.page-type-dashboard #dashboard.v-tabs ul.vertical {
     display: none;
 }
-.aui-theme-default.moonsharks #header .aui-header #logo a {
+.aui-theme-default.spectre #header .aui-header #logo a {
     height: 110px;
     width: 416px;
     position: absolute;
     background: transparent url('https://s3.amazonaws.com/uploads.hipchat.com/226/752505/5PnuO2B76OOO9MT/SPECTRE%20header.png') bottom left no-repeat;
 }
-.aui-theme-default.moonsharks #header .local {
+.aui-theme-default.spectre #header .local {
     border-top: 1px solid #f5f5f5;
 }
-.aui-theme-default.moonsharks #header .local .primary > ul > li.selected {
+.aui-theme-default.spectre #header .local .primary > ul > li.selected {
     background-color: #f0f0f0;
 }
-.aui-theme-default.moonsharks #header .local,
-.aui-theme-default.moonsharks #header .local .primary > ul > li,
-.aui-theme-default.moonsharks #header .aui-header .secondary > ul > li:hover > span.drop-wrap > a:hover > span { 
+.aui-theme-default.spectre #header .local,
+.aui-theme-default.spectre #header .local .primary > ul > li,
+.aui-theme-default.spectre #header .aui-header .secondary > ul > li:hover > span.drop-wrap > a:hover > span { 
     background: #252525;
 }
-.aui-theme-default.moonsharks #header .aui-header .secondary > ul > li {
+.aui-theme-default.spectre #header .aui-header .secondary > ul > li {
     background: transparent;
 }
-.aui-theme-default.moonsharks .ghx-work {
+.aui-theme-default.spectre .ghx-work {
     background: #000 url('https://s3.amazonaws.com/uploads.hipchat.com/226/752505/42s5yqfs2IpIker/SPECTRE%20dark.png') no-repeat center;
 }
-.aui-theme-default.moonsharks #ghx-pool,
-.aui-theme-default.moonsharks .ghx-columns,
-.aui-theme-default.moonsharks .ghx-columns .ghx-column,
-#jira.ghx-contrast-high.aui-theme-default.moonsharks .ghx-column,
-#jira.ghx-contrast-high.aui-theme-default.moonsharks .ghx-columns .ghx-column:nth-child(even) {
+.aui-theme-default.spectre #ghx-pool,
+.aui-theme-default.spectre .ghx-columns,
+.aui-theme-default.spectre .ghx-columns .ghx-column,
+#jira.ghx-contrast-high.aui-theme-default.spectre .ghx-column,
+#jira.ghx-contrast-high.aui-theme-default.spectre .ghx-columns .ghx-column:nth-child(even) {
     background-color: transparent;
 }
 /* swimlanes */
-.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-iconfont,
-.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-heading span {
+.aui-theme-default.spectre .ghx-swimlane-header .ghx-iconfont,
+.aui-theme-default.spectre .ghx-swimlane-header .ghx-heading span {
     color: #bdbdbd;
 }
-.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-heading span .ghx-description {
+.aui-theme-default.spectre .ghx-swimlane-header .ghx-heading span .ghx-description {
     color: #808080;
 }
-.aui-theme-default.moonsharks .ghx-swimlane-header:after {
+.aui-theme-default.spectre .ghx-swimlane-header:after {
     background-color: transparent;
     box-shadow: none;
 }
