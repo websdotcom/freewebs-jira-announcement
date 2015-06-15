@@ -1,21 +1,61 @@
-.aui-theme-default.spectre #header .aui-header,
-.aui-theme-default.spectre #header .aui-header .secondary>ul>li,
-.aui-theme-default.spectre .ghx-hero li a:hover,
-.aui-theme-default.spectre .ghx-modes .button:hover,
-.aui-theme-default.spectre .ghx-modes .button.active { background: #497380; }
-.aui-theme-default.spectre #header .local,
-.aui-theme-default.spectre #header .local .primary>ul>li,
-.aui-theme-default.spectre #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #ba0d3e; }
-.aui-theme-default.spectre #header .local { border-top: 1px solid #a10b36; }
-.aui-theme-default.spectre #header .local .primary>ul>li.selected { background-color: #F0F0F0; }
-.aui-theme-default.spectre #header .aui-header #logo a { height: 66px; width: 70px; background: url('https://s3.amazonaws.com/uploads.hipchat.com/226/752505/PWlHApQeGp3HcRP/pig%20logo.png') 0px 3px/60px 60px no-repeat; }
-.aui-theme-default.spectre #header .aui-header #logo a img,
-.aui-theme-default.spectre #announcement-banner { display: none; }
-.aui-theme-default.spectre .ghx-work .ghx-column-headers .ghx-column,
-.aui-theme-default.spectre .ghx-work .ghx-columns .ghx-column { /* background: rgba(211, 14, 69, .14);*/  }
-.aui-theme-default.spectre .ghx-empty * { display:none; }
-.aui-theme-default.spectre .ghx-empty {
-	background: rgba(211, 14, 69,.4)  url('http://nickswider.com/jira/FlyingSquirrelsLarge.png') no-repeat 50% 50%;
-	background-size: 120%;
-	opacity: .3;
+.aui-theme-default.moonsharks #header nav.aui-header {
+    min-height: 110px;
+}
+.aui-theme-default.moonsharks #header .aui-header {
+    background: #000;
+}
+.aui-theme-default.moonsharks #header .aui-nav {
+    z-index: 1;
+    position: relative;
+}
+.aui-theme-default.moonsharks #header .aui-header #logo {
+    z-index: 0;
+    position: relative; 
+}
+.aui-theme-default.moonsharks #header .aui-header #logo a img,
+.aui-theme-default.moonsharks #announcement-banner,
+.aui-theme-default.moonsharks.page-type-dashboard #dashboard.v-tabs ul.vertical {
+    display: none;
+}
+.aui-theme-default.moonsharks #header .aui-header #logo a {
+    height: 110px;
+    width: 416px;
+    position: absolute;
+    background: transparent url('https://s3.amazonaws.com/uploads.hipchat.com/226/752505/5PnuO2B76OOO9MT/SPECTRE%20header.png') bottom left no-repeat;
+}
+.aui-theme-default.moonsharks #header .local {
+    border-top: 1px solid #f5f5f5;
+}
+.aui-theme-default.moonsharks #header .local .primary > ul > li.selected {
+    background-color: #f0f0f0;
+}
+.aui-theme-default.moonsharks #header .local,
+.aui-theme-default.moonsharks #header .local .primary > ul > li,
+.aui-theme-default.moonsharks #header .aui-header .secondary > ul > li:hover > span.drop-wrap > a:hover > span { 
+    background: #252525;
+}
+.aui-theme-default.moonsharks #header .aui-header .secondary > ul > li {
+    background: transparent;
+}
+.aui-theme-default.moonsharks .ghx-work {
+    background: #000 url('https://s3.amazonaws.com/uploads.hipchat.com/226/752505/42s5yqfs2IpIker/SPECTRE%20dark.png') no-repeat center;
+}
+.aui-theme-default.moonsharks #ghx-pool,
+.aui-theme-default.moonsharks .ghx-columns,
+.aui-theme-default.moonsharks .ghx-columns .ghx-column,
+#jira.ghx-contrast-high.aui-theme-default.moonsharks .ghx-column,
+#jira.ghx-contrast-high.aui-theme-default.moonsharks .ghx-columns .ghx-column:nth-child(even) {
+    background-color: transparent;
+}
+/* swimlanes */
+.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-iconfont,
+.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-heading span {
+    color: #bdbdbd;
+}
+.aui-theme-default.moonsharks .ghx-swimlane-header .ghx-heading span .ghx-description {
+    color: #808080;
+}
+.aui-theme-default.moonsharks .ghx-swimlane-header:after {
+    background-color: transparent;
+    box-shadow: none;
 }
