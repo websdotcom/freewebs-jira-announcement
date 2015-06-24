@@ -354,7 +354,7 @@ jQuery(window).on('popstate', WEBS.onPopState);
  *******************/
 function processSPs(){
 	try{
-		var SP_FIELD = "customfield_11511";
+		var SP_FIELD = "customfield_11310";
 		var STATUS_FIELD = "status";
 		var LABELS_FIELD = "labels";
 		var restApiBaseUrl = document.location.protocol + "//" + document.location.host;
