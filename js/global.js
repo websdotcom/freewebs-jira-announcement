@@ -279,7 +279,7 @@ var WEBS = {
 	 * Calculate Points outside of GreenHopper
 	 *******************/
 	showPts: function(DOMWindow, preserveLink) {
-		var $devCells = jQuery('.customfield_11511', DOMWindow); // D_pts = 10182; Points = 11310; BitPoints = 11511;
+		var $devCells = jQuery('.customfield_11310', DOMWindow); // D_pts = 10182; Points = 11310; BitPoints = 11511;
 		if($devCells.size() > 0){
 			var ticketPts = $devCells.text().replace(/ +/g, ',').split(',').map(function(el){ return el === '' ? 0 : parseFloat(el.trim()); });
 			var total = 0;
