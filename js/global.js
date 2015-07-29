@@ -29,6 +29,11 @@ var WEBS = {
 			moonSharkBoard: true,
 			suppressStoryPoints: true
 		},
+		'Moon Sharks Scrum': {
+			id: 179,
+			bodyClass: 'moonsharks',
+			moonSharkBoard: true,
+		},
 		'SPECTRE': {
 			id: 138,
 			nav: 'SPECTRE',
