@@ -23,14 +23,14 @@ var WEBS = {
 		},
 		'MoonSharksKanban': {
 			id: 153,
-			nav: 'Moon Sharks',
-			navCat: 'Identity',
 			bodyClass: 'moonsharks',
 			moonSharkBoard: true,
 			suppressStoryPoints: true
 		},
 		'Moon Sharks Scrum': {
 			id: 179,
+			nav: 'Moon Sharks',
+			navCat: 'Identity',
 			bodyClass: 'moonsharks',
 			moonSharkBoard: true,
 		},
