@@ -29,6 +29,30 @@
 	position: absolute;
 	top: 5px;
 }
+.aui-button.aui-button-link
+
+.aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dt {
+	color: #ffffff;
+}
+
+.aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dd a {
+	color: #00a8e2;
+}
+
+.aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dd a:hover {
+	color: #000000;
+	background-color: #fef423;
+	border-color: #fef423;
+}
+
+.aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dd a.ghx-active {
+	background-color: #00a8e2;
+	color: #000000;
+}
+
+.aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dd a.ghx-active:hover {
+	color: #ffffff;
+}
 
 .aui-layout.Watchmen #header .aui-header .primary>ul>li>a,
 .aui-layout.Watchmen #header .aui-header .secondary>ul>li>a,
