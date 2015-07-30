@@ -25,6 +25,10 @@
 .aui-theme-default.Watchmen .ghx-modes .button:hover,
 .aui-theme-default.Watchmen .ghx-modes .button.active { background: #000000; }
 
+.aui-theme-default.Watchmen #gh #ghx-content-main #ghx-epic-column {
+	background-color: #f5f5f5;
+}
+
 /* Sidebar */
 .aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-wrapper {
 	border-color: #000000;
