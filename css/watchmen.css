@@ -31,13 +31,16 @@
 	background-color: #fef423;
 	color: #000000;
 }
+.aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-footer>.aui-sidebar-settings-button:hover,
+.aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-footer>.aui-sidebar-toggle:hover,
+.aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-footer>.aui-sidebar-settings-button:focus,
+.aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-footer>.aui-sidebar-toggle:focus,
+.aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-footer,
+.aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-submenu .aui-sidebar-footer,
 .aui-theme-default.Watchmen .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a,
 .aui-theme-default.Watchmen .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a:hover {
 	background-color: #00a8e2;
 	color: #000000;
-}
-.aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-footer,
-.aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-submenu .aui-sidebar-footer {
 	border-color: #ffffff;
 }
 
