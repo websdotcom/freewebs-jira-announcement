@@ -1,3 +1,21 @@
+/* Watchmen Yellow: #fef423
+   Watchmen Blue  : #00a8e2 */
+
+/* Buttons */
+.aui-theme-default.Watchmen #gh #ghx-header .aui-button,
+.aui-theme-default.Watchmen #gh #ghx-header a.aui-button,
+.aui-theme-default.Watchmen #gh #ghx-header .aui-button:visited {
+	background-color: #fef423;
+	border-color: #000000;
+}
+.aui-theme-default.Watchmen #gh #ghx-header .aui-button:focus,
+.aui-theme-default.Watchmen #gh #ghx-header .aui-button:hover,
+.aui-theme-default.Watchmen #gh #ghx-header .aui-button-subtle.aui-button:focus,
+.aui-theme-default.Watchmen #gh #ghx-header .aui-button-subtle.aui-button:hover {
+	background-color: #00a8e2;
+	border-color: #000000;
+}
+
 .aui-theme-default.Watchmen #header .aui-header,
 .aui-theme-default.Watchmen #header .aui-header .secondary>ul>li,
 .aui-theme-default.Watchmen #header .local,
@@ -5,15 +23,34 @@
 .aui-theme-default.Watchmen #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span,
 .aui-theme-default.Watchmen .ghx-hero li a:hover,
 .aui-theme-default.Watchmen .ghx-modes .button:hover,
-.aui-theme-default.Watchmen .ghx-modes .button.active { background: #000; }
+.aui-theme-default.Watchmen .ghx-modes .button.active { background: #000000; }
 
+/* Sidebar */
+.aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-wrapper {
+	border-color: #000000;
+	background-color: #fef423;
+	color: #000000;
+}
+.aui-theme-default.Watchmen .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a,
+.aui-theme-default.Watchmen .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a:hover {
+	background-color: #00a8e2;
+	color: #000000;
+}
+.aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-footer,
+.aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-submenu .aui-sidebar-footer {
+	border-color: #ffffff;
+}
+
+/* Page Sub-Header */
 .aui-theme-default.Watchmen #gh {
-	background: #000;
+	background: #000000;
 	color: #ffffff;
 }
 .aui-theme-default.Watchmen #gh #ghx-view-selector #ghx-board-name { color: #ffffff; }
 .aui-theme-default.Watchmen #gh #ghx-view-selector span.subnav-trigger { color: #ffffff; }
 
+
+/* Sprint Countdown + Complete Sprint Corner */
 .aui-theme-default.Watchmen #gh #ghx-header .ghx-sprint-meta .time { color: #fef423; }
 .aui-theme-default.Watchmen #gh #ghx-header .ghx-sprint-meta .time .aui-iconfont-time {
 	height: 25px;
@@ -29,29 +66,31 @@
 	position: absolute;
 	top: 5px;
 }
-.aui-button.aui-button-link
-
-.aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dt {
-	color: #ffffff;
-}
-
-.aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dd a {
+.aui-theme-default.Watchmen #gh #ghx-header .aui-button.aui-button-link {
 	color: #00a8e2;
 }
-
-.aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dd a:hover {
+.aui-theme-default.Watchmen #gh #ghx-header .aui-button.aui-button-link:hover {
 	color: #000000;
 	background-color: #fef423;
 	border-color: #fef423;
 }
 
+
+/* Quick Filter Links & Buttons */
+.aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dt { color: #ffffff; }
+.aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dd a { color: #00a8e2; }
+.aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dd a:hover {
+	color: #000000;
+	background-color: #fef423;
+	border-color: #fef423;
+}
 .aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dd a.ghx-active {
 	background-color: #00a8e2;
 	color: #000000;
 }
-
 .aui-theme-default.Watchmen #gh #ghx-content-main .ghx-controls-filters dd a.ghx-active:hover {
 	color: #ffffff;
+	border-color: #ffffff;
 }
 
 .aui-layout.Watchmen #header .aui-header .primary>ul>li>a,
