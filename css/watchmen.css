@@ -37,6 +37,12 @@
 .aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-footer>.aui-sidebar-toggle:focus,
 .aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-footer,
 .aui-theme-default.Watchmen .aui-sidebar .aui-sidebar-submenu .aui-sidebar-footer,
+.aui-theme-default.Watchmen .aui-sidebar .aui-navgroup-horizontal .aui-nav>li a:focus,
+.aui-theme-default.Watchmen .aui-sidebar .aui-navgroup-vertical .aui-nav>li>a:focus,
+.aui-theme-default.Watchmen .aui-sidebar .aui-nav-vertical>li>a:focus,
+.aui-theme-default.Watchmen .aui-sidebar .aui-navgroup-horizontal .aui-nav>li a:hover,
+.aui-theme-default.Watchmen .aui-sidebar .aui-navgroup-vertical .aui-nav>li>a:hover,
+.aui-theme-default.Watchmen .aui-sidebar .aui-nav-vertical>li>a:hover,
 .aui-theme-default.Watchmen .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a,
 .aui-theme-default.Watchmen .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a:hover {
 	background-color: #00a8e2;
