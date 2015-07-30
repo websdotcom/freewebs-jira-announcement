@@ -7,6 +7,29 @@
 .aui-theme-default.Watchmen .ghx-modes .button:hover,
 .aui-theme-default.Watchmen .ghx-modes .button.active { background: #000; }
 
+.aui-theme-default.Watchmen #gh {
+	background: #000;
+	color: #ffffff;
+}
+.aui-theme-default.Watchmen #gh #ghx-view-selector #ghx-board-name { color: #ffffff; }
+.aui-theme-default.Watchmen #gh #ghx-view-selector span.subnav-trigger { color: #ffffff; }
+
+.aui-theme-default.Watchmen #gh #ghx-header .ghx-sprint-meta .time { color: #fef423; }
+.aui-theme-default.Watchmen #gh #ghx-header .ghx-sprint-meta .time .aui-iconfont-time {
+	height: 25px;
+	position: relative;
+	width: 25px;
+}
+.aui-theme-default.Watchmen #gh #ghx-header .ghx-sprint-meta .time .aui-iconfont-time:before {
+	content: "";
+	background-image: url("https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/icon-watchmen-clock.png");
+	background-size: 25px;
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	top: 5px;
+}
+
 .aui-layout.Watchmen #header .aui-header .primary>ul>li>a,
 .aui-layout.Watchmen #header .aui-header .secondary>ul>li>a,
 .aui-layout.Watchmen #header .local .primary>ul>li>a,
