@@ -66,10 +66,12 @@
 	position: absolute;
 	top: 5px;
 }
-.aui-theme-default.Watchmen #gh #ghx-header .aui-button.aui-button-link {
+.aui-theme-default.Watchmen #gh #ghx-header #ghx-complete-sprint {
 	color: #00a8e2;
+	background-color: #000000;
+	border-color: transparent;
 }
-.aui-theme-default.Watchmen #gh #ghx-header .aui-button.aui-button-link:hover {
+.aui-theme-default.Watchmen #gh #ghx-header #ghx-complete-sprint:hover {
 	color: #000000;
 	background-color: #fef423;
 	border-color: #fef423;
