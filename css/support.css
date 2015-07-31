@@ -1,4 +1,4 @@
-/*Header*/
+/*--------Header----------*/
 
 .aui-theme-default.support #header .aui-header {
         background: url('http://www.exitbear.com/nwHeader.png');
@@ -10,7 +10,12 @@
     color: #000;
 }
 
-/*Body?*/
+/*Hide blue color-clashing Webs logo*/
+.aui-theme-default.Watchmen #header .aui-header #logo img{
+    display: none;
+}
+
+/*------Body?-------------*/
 
 .aui-theme-default.support .ghx-work {
     background: #000 url('http://www.exitbear.com/nwWallpaper.png');
@@ -25,7 +30,3 @@
     background-color: transparent;
 }
 
-    /*Hide blue color-clashing Webs logo*/
-.aui-theme-default.support .aui-header-logo .aui-header-logo-custom img{
-    display: none;
-}
