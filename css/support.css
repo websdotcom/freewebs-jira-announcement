@@ -11,7 +11,7 @@
 }
 
 /*Hide blue color-clashing Webs logo*/
-.aui-theme-default.Watchmen #header .aui-header #logo img{
+.aui-theme-default.support #header .aui-header #logo img{
     display: none;
 }
 
