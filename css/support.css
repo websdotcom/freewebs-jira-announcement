@@ -17,13 +17,13 @@
 
 /*------Body?-------------*/
 
-.aui-theme-default.support #ghx-header,
-.aui-theme-default.support #ghx-operations{
+.aui-theme-default.support #gh #ghx-header,
+.aui-theme-default.support #gh #ghx-operations{
     background-color: #D2DAE2;
 }
 
-.aui-theme-default.support #ghx-column-headers,
-.aui-theme-default.support #ghx-column{
+.aui-theme-default.support #gh #ghx-column-headers,
+.aui-theme-default.support #gh #ghx-column{
     background-color: #2D4057;
     border-style:none;
 }
