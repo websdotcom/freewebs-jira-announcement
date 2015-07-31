@@ -32,7 +32,7 @@
     color: #fff;
 }*/
 
-.aui-theme-default.support #announcement-banner{
+.aui-theme-default.support #announcement-banner .alertHeader{
     display:none;
 }
 
