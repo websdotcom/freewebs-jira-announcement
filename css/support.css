@@ -13,5 +13,13 @@
 /*Body?*/
 
 .aui-theme-default.support .ghx-work {
-    background: #000 url('http://www.exitbear.com/nwWallpaper.png') no-repeat center;
+    background: #000 url('http://www.exitbear.com/nwWallpaper.png');
+}
+
+.aui-theme-default.support #ghx-pool,
+.aui-theme-default.support .ghx-columns,
+.aui-theme-default.support .ghx-columns .ghx-column,
+#jira.ghx-contrast-high.aui-theme-default.support .ghx-column,
+#jira.ghx-contrast-high.aui-theme-default.support .ghx-columns .ghx-column:nth-child(even) {
+    background-color: transparent;
 }
