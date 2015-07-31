@@ -18,8 +18,7 @@
 /*------Body?-------------*/
 
 .aui-theme-default.support #ghx-header,
-.aui-theme-default.support #ghx-operations,
-{
+.aui-theme-default.support #ghx-operations{
     background-color: #D2DAE2;
 }
 
