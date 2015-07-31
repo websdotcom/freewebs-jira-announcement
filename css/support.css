@@ -17,7 +17,7 @@
 
 /*------Body?-------------*/
 
-.aui-theme-default.support #gh #ghx-header,
+/*aui-theme-default.support #gh #ghx-header,
 .aui-theme-default.support #gh #ghx-operations{
     background-color: #D2DAE2;
 }
@@ -34,7 +34,7 @@
 
 .aui-theme-default.support #announcement-banner{
     display:none;
-}
+}*/
 
 .aui-theme-default.support .ghx-work {
     background: #000 url('http://www.exitbear.com/nwWallpaper.png');
