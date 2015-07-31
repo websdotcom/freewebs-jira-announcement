@@ -13,7 +13,7 @@
 /*Body?*/
 
 .aui-theme-default.support .ghx-work {
-    background: #000 url('http://www.exitbear.com/nwWallpaper.png');
+    background: #000 url('http://www.exitbear.com/nwWallpaper.png') no-repeat center;
 }
 
 .aui-theme-default.support #ghx-pool,
