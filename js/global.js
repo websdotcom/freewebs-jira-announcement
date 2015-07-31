@@ -168,6 +168,10 @@ var WEBS = {
 			id: 183,
 			bodyClass: 'moonsharks'
 		}
+		'Support': {
+			id: 148,
+			bodyClass: 'support'
+		}
 	},
 
 	currentBoard: null,
