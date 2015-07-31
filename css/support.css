@@ -24,3 +24,8 @@
 #jira.ghx-contrast-high.aui-theme-default.support .ghx-columns .ghx-column:nth-child(even) {
     background-color: transparent;
 }
+
+    /*Hide blue color-clashing Webs logo*/
+.aui-theme-default.support .aui-header-logo .aui-header-logo-custom img{
+    display: none;
+}
