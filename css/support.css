@@ -1,4 +1,11 @@
+/*Header*/
+
 .aui-theme-default.support #header .aui-header {
         background: url('http://www.exitbear.com/nwHeader.png');
         height: 147px;
     }
+
+.aui-theme-default.support .aui-header .aui-dropdown2-trigger,
+.aui-theme-default.support #quickscrum .quickscrum-category {
+    color: #000;
+}
