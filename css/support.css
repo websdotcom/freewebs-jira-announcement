@@ -9,3 +9,9 @@
 .aui-theme-default.support #quickscrum .quickscrum-category {
     color: #000;
 }
+
+/*Body?*/
+
+.aui-theme-default.support .ghx-work {
+    background: #000 url('http://www.exitbear.com/nwWallpaper.png') no-repeat center;
+}
