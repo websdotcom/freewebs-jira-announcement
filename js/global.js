@@ -163,6 +163,10 @@ var WEBS = {
 		'Musketeers': {
 			id: 127,
 			bodyClass: 'musketeers'
+		},
+		'Spoon': {
+			id: 183,
+			bodyClass: 'moonsharks'
 		}
 	},
 
