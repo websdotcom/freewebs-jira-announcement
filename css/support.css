@@ -17,6 +17,22 @@
 
 /*------Body?-------------*/
 
+.aui-theme-default.support #ghx-header,
+.aui-theme-default.support #ghx-operations,
+{
+    background-color: #D2DAE2;
+}
+
+.aui-theme-default.support #ghx-column-headers,
+.aui-theme-default.support #ghx-column{
+    background-color: #2D4057
+    border-style:none;
+}
+
+.aui-theme-default.support .ghx-column-headers h2{
+    color: #fff;
+}
+
 .aui-theme-default.support #announcement-banner{
     display:none;
 }
