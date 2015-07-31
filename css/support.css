@@ -22,8 +22,8 @@
     background-color: #D2DAE2;
 }
 
-.aui-theme-default.support #gh #ghx-column-headers,
-.aui-theme-default.support #gh #ghx-column{
+.aui-theme-default.Watchmen .ghx-column-headers .ghx-column,
+.aui-theme-default.Watchmen .ghx-columns .ghx-column {
     background-color: #2D4057;
     border-style:none;
 }
