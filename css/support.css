@@ -35,7 +35,7 @@
     background-color: transparent;
 }
 
-.aui-theme-default.support #sp-flag{
+.aui-theme-default.support #ghx-header #ghx-view-selector .sp-flag{
     display: none;
 }
 
