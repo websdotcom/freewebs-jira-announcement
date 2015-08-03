@@ -17,20 +17,6 @@
 
 /*------Body?-------------*/
 
-/*aui-theme-default.support #gh #ghx-header,
-.aui-theme-default.support #gh #ghx-operations{
-    background-color: #D2DAE2;
-}
-
-.aui-theme-default.support .ghx-column-headers .ghx-column,
-.aui-theme-default.support .ghx-columns .ghx-column {
-    background-color: #2D4057;
-    border-style:none;
-}
-
-.aui-theme-default.support .ghx-column-headers h2{
-    color: #fff;
-}*/
 
 .aui-theme-default.support #announcement-banner{
     display:none;
@@ -48,4 +34,24 @@
 #jira.ghx-contrast-high.aui-theme-default.support .ghx-columns .ghx-column:nth-child(even) {
     background-color: transparent;
 }
+
+.aui-theme-default.support #sp-flag{
+    display: none;
+}
+
+.aui-theme-default.support #ghx-header #ghx-view-selector h1,
+.aui-theme-default.support #ghx-header #ghx-view-selector h1 .subnav-container #subnav-trigger-work.subnavtrigger
+{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
 
