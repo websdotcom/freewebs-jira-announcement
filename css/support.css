@@ -40,8 +40,7 @@
 }
 
 .aui-theme-default.support #ghx-header #ghx-view-selector h1,
-.aui-theme-default.support #ghx-header #ghx-view-selector h1 .subnav-container #subnav-trigger-work.subnavtrigger
-{
+.aui-theme-default.support #ghx-header #ghx-view-selector h1 .subnav-container #subnav-trigger-work {
     font-size: 16px;
 }
 
