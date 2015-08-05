@@ -166,7 +166,7 @@ var WEBS = {
 		},
 		'Spoon': {
 			id: 183,
-			bodyClass: 'moonsharks'
+			bodyClass: 'spoon'
 		},
 		'Support': {
 			id: 148,
