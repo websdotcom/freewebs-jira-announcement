@@ -157,3 +157,24 @@
         height: 2.2em;
         overflow: hidden;
 }
+
+/* self directed ticket styles */
+
+.aui-theme-default.architects .ghx-column > .ghx-issue[data-label-names*=self_directed] {
+        background-color: #2672a8;
+        color: #eee;
+}
+
+.aui-theme-default.architects .ghx-column > .ghx-issue[data-label-names*=self_directed] a {
+        color: #eee !important;
+}
+
+.aui-theme-default.architects .ghx-column > .ghx-issue[data-label-names*=self_directed] .ghx-end {
+        box-shadow: none;
+        background: none;
+}
+
+
+.aui-theme-default.architects .ghx-column > .ghx-issue[data-label-names*=self_directed] .ghx-end .aui-badge {
+        color: #eee;
+}
