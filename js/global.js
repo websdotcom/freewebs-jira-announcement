@@ -63,6 +63,12 @@ var WEBS = {
 		//	nav: 'Squirrels',
 		//	bodyClass: 'flyingsquirrels'
 		//},
+		'Finch': {
+			id: 192,
+			nav: 'Finch',
+			navCat: 'Identity',
+			bodyClass: 'flyingsquirrels'
+		},
 
 		'Launch in Progress': {
 			id: 150,
