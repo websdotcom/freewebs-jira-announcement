@@ -47,13 +47,13 @@ var WEBS = {
 			bodyClass: 'mustang'
 		},
 		'Watchmen': {
-			id: 60,
+			id: 193,
 			nav: 'Watchmen',
 			navCat: 'Identity',
 			bodyClass: 'Watchmen'
 		},
 		'Watchmen (Archimedes)': {
-			id: 167,
+			id: 194,
 			//nav: 'Watchmen',
 			//navCat: 'Identity',
 			bodyClass: 'Watchmen'
