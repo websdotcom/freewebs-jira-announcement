@@ -16,3 +16,9 @@
 	background-color: #243a4f;
 	opacity: .3;
 }
+.aui-theme-default.local .ghx-column > .ghx-issue {
+  background: rgba(233, 245, 250, 1);
+}
+.aui-theme-default.local .ghx-column > .ghx-issue[data-label-names*=current-sprint-ticket] {
+  background: #ffffff;
+}
