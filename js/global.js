@@ -426,10 +426,15 @@ function processSPs(){
 		var grandTotalSP = 0;
 		// We can't have spaces in our labels
 		var sprintId = jQuery(".ghx-name.js-toggle-sprint").text().replace(/ /ig, '_');
-		
+
 		// JIRA has mutated. DOM query above (`.ghx-name.js-toggle-sprint`) no longer seems to exist:
 		if (!sprintId) {
 			sprintId = jQuery("#subnav-trigger-work").text().replace(/ /ig, '_');
+
+			// Another JIRA mutation!
+			if (!sprintId) {
+				sprintId = jQuery('.subnavigator-title').text().replace(/ /ig, '_');
+			}
 		}
 
 		function searchIssues(issueKeys, dataId, startAt, totalSP) {
