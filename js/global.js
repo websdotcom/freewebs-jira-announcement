@@ -472,7 +472,7 @@ function processSPs(){
 				setSPSpanValue(jQHeader, totalSP);
 				grandTotalSP += totalSP;
 				grandTotalSP = Math.round(grandTotalSP * 100) / 100;
-				var boardTitle = jQuery("#ghx-view-selector");
+				var boardTitle = jQuery("#subnav-title");
 				setSPSpanValue(boardTitle, grandTotalSP);
 				var callStartAt = searchResult.startAt || 0;
 				if(startAt + searchResult.issues.length < searchResult.total)
