@@ -22,6 +22,6 @@
 .aui-theme-default.local .ghx-column > .ghx-issue[data-label-names*=current-sprint-ticket] {
   background: #ffffff;
 }
-.aui-theme-default.local .ghx-column > .ghx-issue[data-label-names*='carry'] {
+.aui-theme-default.local .ghx-column > .ghx-issue[data-label-names*=carry] {
   background: #FFB6C1;
 }
