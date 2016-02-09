@@ -95,6 +95,12 @@ var WEBS = {
 			navCat: 'Marketing',
 			bodyClass: 'dctd'
 		},
+		'Email Marketing': {
+			id: 203,
+			nav: 'EMM',
+			navCat: 'Marketing',
+			bodyClass: 'emm'
+		},
 		//'Pagemodo': {
 		//	id: 109,
 		//	bodyClass: 'pagemodo',
