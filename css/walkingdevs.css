@@ -1,0 +1,48 @@
+.aui-theme-default.walkingdevs #header .aui-header,
+.aui-theme-default.walkingdevs #header .aui-header .secondary>ul>li,
+.aui-theme-default.walkingdevs .ghx-hero li a:hover,
+.aui-theme-default.walkingdevs .ghx-modes .button:hover,
+.aui-theme-default.walkingdevs .ghx-modes .button.active {
+	background: #7d9380;
+	border-color: #39483d;
+}
+.aui-theme-default.walkingdevs #header .local,
+.aui-theme-default.walkingdevs #header .local .primary>ul>li,
+.aui-theme-default.walkingdevs #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span {background: #ba0d3e; }
+.aui-theme-default.walkingdevs #header .local { border-top: 1px solid #39483d; }
+.aui-theme-default.walkingdevs #header .local .primary>ul>li.selected { background-color: #F0F0F0; }
+.aui-theme-default.walkingdevs #header .aui-header #logo a {
+	height: 70px; width: 134px;
+	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/walkingdevs.png');
+	background-size: contain;
+}
+.aui-theme-default.walkingdevs #header .aui-header #logo a img,
+.aui-theme-default.walkingdevs #announcement-banner { display: none; }
+.aui-theme-default.walkingdevs .ghx-work .ghx-column-headers .ghx-column,
+.aui-theme-default.walkingdevs .ghx-work .ghx-columns .ghx-column { /* background: rgba(211, 14, 69, .14);*/ }
+.aui-theme-default.walkingdevs .ghx-empty * { display:none; }
+.aui-theme-default.walkingdevs .ghx-empty {
+	background: #7d9380;
+	opacity: .3;
+}
+
+.aui-theme-default.walkingdevs .ghx-column > .ghx-issue {
+	background: #ecf5f9;
+}
+.aui-theme-default.walkingdevs .ghx-column > .ghx-issue[data-label-names*=reopened-ticket] {
+	background: #FFDADA !important;
+}
+.aui-theme-default.walkingdevs .ghx-column > .ghx-issue[data-label-names*=reopened-ticket]:hover .ghx-end {
+	background: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.aui-theme-default.walkingdevs .ghx-column > .ghx-issue[data-label-names*=current-sprint-ticket] {
+	background: white;
+}
+
+.aui-theme-default.walkingdevs .aui-header .aui-dropdown2-trigger:hover,
+.aui-theme-default.walkingdevs .aui-header .aui-dropdown2-trigger:focus,
+.aui-theme-default.walkingdevs .aui-header .aui-dropdown2-trigger.active {
+	background: #39483d;
+}
