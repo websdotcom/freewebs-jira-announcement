@@ -22,6 +22,12 @@ setTimeout(function() {
               top: '-' + totalAdjustments + 'px'
             });
           });
+        } else {
+          issues.each(function(i) {
+            jQuery(this).css({
+              position: 'static'
+            });
+          });
         }
       });
     };
