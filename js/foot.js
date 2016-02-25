@@ -8,9 +8,9 @@ setTimeout(function() {
         var visibleHeight = viewportHeight - col[0].getBoundingClientRect().top;
         var issues = col.find('.ghx-issue');
         var height = issues.length ? issues[0].getBoundingClientRect().height : 0;
-        var issuesHeight = issues.length * height;
+        var issuesHeight = issues[issues.length - 1].getBoundingClientRect().bottom - col[0].getBoundingClientRect().top;
         var hiddenHeight = issuesHeight - visibleHeight;
-        if (hiddenHeight > (height - 50)) {
+        if (hiddenHeight > 0) {
           var perIssueAdjustment = visibleHeight / issues.length;
           perIssueAdjustment -= (issues[issues.length - 1].getBoundingClientRect().height - perIssueAdjustment) / issues.length - 1;
           var totalAdjustments = 0;
