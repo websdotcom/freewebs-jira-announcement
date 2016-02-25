@@ -11,11 +11,15 @@ setTimeout(function() {
         var issuesHeight = issues.length * height;
         var hiddenHeight = issuesHeight - visibleHeight;
         if (hiddenHeight > (height - 50)) {
-          var perIssueAdjustment = hiddenHeight / issues.length;
+          var perIssueAdjustment = visibleHeight / issues.length;
+          perIssueAdjustment -= (issues[issues.length - 1].getBoundingClientRect().height - perIssueAdjustment) / issues.length - 1;
+          var totalAdjustments = 0;
           issues.each(function(i) {
+            if (i === 0) { return; }
+            totalAdjustments += issues[i - 1].getBoundingClientRect().height - perIssueAdjustment;
             jQuery(this).css({
               position: 'relative',
-              top: '-' + (perIssueAdjustment * i) + 'px'
+              top: '-' + totalAdjustments + 'px'
             });
           });
         }
