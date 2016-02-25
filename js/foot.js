@@ -24,6 +24,7 @@ setTimeout(function() {
 
     jQuery().ready(overlapCards);
     window.addEventListener('resize', overlapCards);
+    jQuery('.js-compact-toggle').click(overlapCards);
 	}
 }, 1000);
 
