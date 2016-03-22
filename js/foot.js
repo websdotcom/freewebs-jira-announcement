@@ -1,6 +1,5 @@
 setTimeout(function() {
 	if (USER && USER.username === 'tools' && WEBS && WEBS.boards && WEBS.boards.Architects && window.location.href.indexOf('rapidView=' + WEBS.boards.Architects.id) > 0) {
-    document.querySelector('body').classList.add('architects-display');
     function debounce(func, wait, immediate) {
       var timeout;
       return function() {
