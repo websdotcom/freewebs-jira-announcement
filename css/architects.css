@@ -194,7 +194,8 @@ body.architects-display,
 .architects-display a {
     color: #4E98CC;
 }
-.architects-display .aui-theme-default.architects .ghx-work .ghx-column-headers .ghx-column, .aui-theme-default.architects .ghx-work .ghx-columns .ghx-column {
+.architects-display.aui-theme-default.architects .ghx-work .ghx-column-headers .ghx-column,
+.architects-display.aui-theme-default.architects .ghx-work .ghx-columns .ghx-column {
     background: #222;
 }
 .architects-display .ghx-column-headers .ghx-column {
