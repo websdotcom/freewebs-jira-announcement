@@ -178,3 +178,28 @@
 .aui-theme-default.architects .ghx-column > .ghx-issue[data-label-names*=self_directed] .ghx-end .aui-badge {
         color: #eee;
 }
+
+body.architects-display,
+.architects-display .ghx-column-headers h2,
+.architects-display #ghx-header h1,
+.architects-display #ghx-header h2 {
+    color: #eee;
+}
+.architects-display .aui-page-panel,
+.architects-display #ghx-pool,
+.architects-display .ghx-column-headers .ghx-column,
+.architects-display #ghx-column-header-group.ghx-fixed {
+    background: #333;
+}
+.architects-display a {
+    color: #4E98CC;
+}
+.architects-display .aui-theme-default.architects .ghx-work .ghx-column-headers .ghx-column, .aui-theme-default.architects .ghx-work .ghx-columns .ghx-column {
+    background: #222;
+}
+.architects-display .ghx-column-headers .ghx-column {
+    border-color: #333;
+}
+.architects-display .ghx-swimlane-header:after {
+    opacity: 0;
+}
