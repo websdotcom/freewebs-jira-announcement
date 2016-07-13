@@ -343,7 +343,9 @@ var WEBS = {
 			}
 		}
 
-		WEBS.addQuickScrum();
+		// The nav links are not useful right now and out of date
+		// Hiding this unless someone needs it and wants to update the links
+		// WEBS.addQuickScrum();
                 WEBS.initAutoRefresh();
 
 	},
