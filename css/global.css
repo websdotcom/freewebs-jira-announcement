@@ -1,3 +1,19 @@
+/* Testing: Kill the dragger on Agile boards. It kills priorities, now that we have universal sprint IDs */
+.ghx-marker.js-parent-drag.js-marker {
+  float: right;
+  top: -40px;
+  right: 4px;
+  width: 230px;
+  margin-left: -230px; /* Don't let the float hack move other floated things */
+  height: 30px;
+  border: none;
+  cursor: not-allowed; /* The stats indicator can still activate the dragger. */
+}
+.ghx-marker.js-parent-drag.js-marker:after {
+  display: none;
+}
+
+
 nav.aui-header {
 	min-height: 58px;
 }
