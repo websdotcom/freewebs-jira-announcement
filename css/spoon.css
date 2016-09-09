@@ -1,4 +1,3 @@
-<style>
 /* @blue0: #c9e9f5 */
 /* @blueRgb0: 196, 18, 96 */
 /* @blue1: #acdcf0 */
@@ -11,41 +10,68 @@
 /* @orange: #E4A41D */
 /* @orageRgb: 228, 164, 29 */
 
-.aui-theme-default.spoon #ghx-rabid { /* filter bar */
+/* roughly ordered top of page to bottom */
+
+.aui-theme-default.spoon .aui-sidebar-wrapper,
+.aui-theme-default.spoon #announcement-banner { /* outer chrome */
+	background-color: #92B4D1
 }
 
+.aui-theme-default.spoon #ghx-header,
+.aui-theme-default.spoon #ghx-operations,
+.aui-theme-default.spoon #ghx-column-headers,
+.aui-theme-default.spoon #ghx-header { /* headers */
+	background-color: #5282AC !important;
+}
+.aui-theme-default.spoon #ghx-board-name {
+    color: inherit;
+}
+
+.aui-theme-default.spoon #ghx-rabid { /* filter bar */ }
 .aui-theme-default.spoon #ghx-pool { /* main background */
 	background-image: url("https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/spoon-city.jpg");
-	background-position: center center, top center;
-	background-size: auto, 100%;
-	background-repeat: no-repeat, no-repeat;
+	background-position: top center;
+	background-size: cover, contain;
+	background-repeat: no-repeat;
 	background-color: #AFDAEB;
 }
-
 .aui-theme-default.spoon #ghc-pool { /* lane title block */
 	background-color: rgba(228, 164, 29, 0.72) !important;
 }
-.aui-theme-default.spoon .ghx-column-headers .ghx-column, .ghx-columns .ghx-column { /* swimlane */
-	background: rgb(0, 0, 0, 0.2);
-}
 
+.aui-theme-default.spoon .ghx-column-headers .ghx-column,
+.aui-theme-default.spoon .ghx-columns .ghx-column { /* swimlane */
+	background: rgba(0, 0, 0, 0);
+    border-bottom: none;
+}
 .aui-theme-default.spoon .ghx-column {
-	background-color: rgba(240, 240, 240, 0.266) !important;
+	background-color: rgba(240, 220, 40, 0.05) !important;
 }
 
 .aui-theme-default.spoon .ghx-issue {
-	background-color: rgba(240, 200, 40, 0.3) !important
+	background-color: rgba(240, 220, 40, 0.55) !important;
+	border: 1px solid rgba(240, 220, 40, 0.4);
+    margin-top: 3px;
 }
 .aui-theme-default.spoon .ghx-issue-content {
+    padding: 7px 10px 7px 38px;
 }
 .aui-theme-default.spoon .ghx-avatar-img {
-	box-shadow: 2px 2px 6px #30a8d9, 4px 4px 5px black !important;
+	/* box-shadow: 2px 2px 6px #30a8d9, 4px 4px 5px black !important; */
+    filter: sepia(55%);
+}
+.aui-theme-default.spoon .ghx-type img {
+    filter: sepia(45%);
 }
 .aui-theme-default.spoon .ghx-issue.ghx-selected .ghx-end {
 	box-shadow: 2px 2px 6px #30a8d9, 4px 4px 5px black !important;
 	/* background: #30a8d9; */
 }
+
+.aui-theme-default.spoon .aui-label {
+	filter: sepia(35%) brightness(0.8);
+}
+
 .aui-theme-default.spoon .ghx-priority[title=Major] img {
 	filter: hue-rotate(220) !important;
 }
-</style>
