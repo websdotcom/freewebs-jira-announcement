@@ -1,0 +1,51 @@
+<style>
+/* @blue0: #c9e9f5 */
+/* @blueRgb0: 196, 18, 96 */
+/* @blue1: #acdcf0 */
+/* @blueRgb1: 198, 28, 94 */
+/* @blue2: #83cbe8 */
+/* @blueRgb2: 197, 44, 91 */
+/* @blue3: #30a8d9 */
+/* @blueRgb3: 197, 78, 85 */
+
+/* @orange: #E4A41D */
+/* @orageRgb: 228, 164, 29 */
+
+.aui-theme-default.spoon #ghx-rabid { /* filter bar */
+}
+
+.aui-theme-default.spoon #ghx-pool { /* main background */
+	background-image: url("https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/spoon-city.jpg");
+	background-position: center center, top center;
+	background-size: auto, 100%;
+	background-repeat: no-repeat, no-repeat;
+	background-color: #AFDAEB;
+}
+
+.aui-theme-default.spoon #ghc-pool { /* lane title block */
+	background-color: rgba(228, 164, 29, 0.72) !important;
+}
+.aui-theme-default.spoon .ghx-column-headers .ghx-column, .ghx-columns .ghx-column { /* swimlane */
+	background: rgb(0, 0, 0, 0.2);
+}
+
+.aui-theme-default.spoon .ghx-column {
+	background-color: rgba(240, 240, 240, 0.266) !important;
+}
+
+.aui-theme-default.spoon .ghx-issue {
+	background-color: rgba(240, 200, 40, 0.3) !important
+}
+.aui-theme-default.spoon .ghx-issue-content {
+}
+.aui-theme-default.spoon .ghx-avatar-img {
+	box-shadow: 2px 2px 6px #30a8d9, 4px 4px 5px black !important;
+}
+.aui-theme-default.spoon .ghx-issue.ghx-selected .ghx-end {
+	box-shadow: 2px 2px 6px #30a8d9, 4px 4px 5px black !important;
+	/* background: #30a8d9; */
+}
+.aui-theme-default.spoon .ghx-priority[title=Major] img {
+	filter: hue-rotate(220) !important;
+}
+</style>
