@@ -1,0 +1,301 @@
+/* TRON Yellow: #ffffff
+   TRON Blue  : #86fafa */
+
+/* Buttons */
+.aui-theme-default.TRON #gh #ghx-header .aui-button,
+.aui-theme-default.TRON #gh #ghx-header a.aui-button,
+.aui-theme-default.TRON #gh #ghx-header .aui-button:visited {
+	background-color: #ffffff;
+	border-color: #000000;
+}
+.aui-theme-default.TRON #gh #ghx-header .aui-button:focus,
+.aui-theme-default.TRON #gh #ghx-header .aui-button:hover,
+.aui-theme-default.TRON #gh #ghx-header .aui-button-subtle.aui-button:focus,
+.aui-theme-default.TRON #gh #ghx-header .aui-button-subtle.aui-button:hover {
+	background-color: #86fafa;
+	border-color: #000000;
+}
+
+.aui-theme-default.TRON #header .aui-header,
+.aui-theme-default.TRON #header .aui-header .secondary>ul>li,
+.aui-theme-default.TRON #header .local,
+.aui-theme-default.TRON #header .local .primary > ul > li,
+.aui-theme-default.TRON #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span,
+.aui-theme-default.TRON .ghx-hero li a:hover,
+.aui-theme-default.TRON .ghx-modes .button:hover,
+.aui-theme-default.TRON .ghx-modes .button.active { background: #000000; }
+
+.aui-theme-default.TRON #gh #ghx-content-main #ghx-epic-column {
+	background-color: #f5f5f5;
+}
+
+/* Sidebar */
+.aui-theme-default.TRON .aui-sidebar .aui-sidebar-wrapper {
+	border-color: #000000;
+	background-color: #ffffff;
+	color: #000000;
+}
+.aui-theme-default.TRON .aui-sidebar .aui-sidebar-footer,
+.aui-theme-default.TRON .aui-sidebar .aui-sidebar-submenu .aui-sidebar-footer {
+	background-color: #ffffff;
+	color: #000000;
+}
+.aui-theme-default.TRON .aui-sidebar .aui-sidebar-footer>.aui-sidebar-settings-button:hover,
+.aui-theme-default.TRON .aui-sidebar .aui-sidebar-footer>.aui-sidebar-toggle:hover,
+.aui-theme-default.TRON .aui-sidebar .aui-sidebar-footer>.aui-sidebar-settings-button:focus,
+.aui-theme-default.TRON .aui-sidebar .aui-sidebar-footer>.aui-sidebar-toggle:focus,
+.aui-theme-default.TRON .aui-sidebar .aui-navgroup-horizontal .aui-nav>li a:focus,
+.aui-theme-default.TRON .aui-sidebar .aui-navgroup-vertical .aui-nav>li>a:focus,
+.aui-theme-default.TRON .aui-sidebar .aui-nav-vertical>li>a:focus,
+.aui-theme-default.TRON .aui-sidebar .aui-navgroup-horizontal .aui-nav>li a:hover,
+.aui-theme-default.TRON .aui-sidebar .aui-navgroup-vertical .aui-nav>li>a:hover,
+.aui-theme-default.TRON .aui-sidebar .aui-nav-vertical>li>a:hover,
+.aui-theme-default.TRON .aui-sidebar.aui-is-hover .aui-sidebar-footer>.aui-sidebar-toggle,
+.aui-theme-default.TRON .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a,
+.aui-theme-default.TRON .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a:hover {
+	background-color: #86fafa;
+	color: #000000;
+	border-color: #ffffff;
+}
+
+/* Page Sub-Header */
+.aui-theme-default.TRON #gh {
+	background: #000000;
+	color: #ffffff;
+}
+.aui-theme-default.TRON #gh #ghx-view-selector #ghx-board-name { color: #ffffff; }
+.aui-theme-default.TRON #gh #ghx-view-selector span.subnav-trigger { color: #ffffff; }
+.aui-theme-default.TRON #subnav-title { color: #ffffff; }
+
+
+/* Sprint Countdown + Complete Sprint Corner */
+.aui-theme-default.TRON #gh #ghx-header .ghx-sprint-meta .time { color: #ffffff; }
+.aui-theme-default.TRON #gh #ghx-header .ghx-sprint-meta .time .aui-iconfont-time {
+	height: 25px;
+	position: relative;
+	width: 25px;
+}
+.aui-theme-default.TRON #gh #ghx-header .ghx-sprint-meta .time .aui-iconfont-time:before {
+	content: "";
+	background-image: url("https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/icon-tron-clock.png");
+	background-size: 25px;
+	height: 25px;
+	width: 25px;
+	position: absolute;
+	top: 5px;
+}
+.aui-theme-default.TRON #gh #ghx-header #ghx-complete-sprint {
+	color: #86fafa;
+	background-color: #000000;
+	border-color: transparent;
+}
+.aui-theme-default.TRON #gh #ghx-header #ghx-complete-sprint:hover {
+	color: #000000;
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+
+
+/* Quick Filter Links & Buttons */
+.aui-theme-default.TRON #gh #ghx-content-main .ghx-controls-filters dt { color: #ffffff; }
+.aui-theme-default.TRON #gh #ghx-content-main .ghx-controls-filters dd a { color: #86fafa; }
+.aui-theme-default.TRON #gh #ghx-content-main .ghx-controls-filters dd a:hover {
+	color: #000000;
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+.aui-theme-default.TRON #gh #ghx-content-main .ghx-controls-filters dd a.ghx-active {
+	background-color: #86fafa;
+	color: #000000;
+}
+.aui-theme-default.TRON #gh #ghx-content-main .ghx-controls-filters dd a.ghx-active:hover {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+.aui-layout.TRON #header .aui-header .primary>ul>li>a,
+.aui-layout.TRON #header .aui-header .secondary>ul>li>a,
+.aui-layout.TRON #header .local .primary>ul>li>a,
+.aui-layout.TRON #header .local .secondary>ul>li>a,
+.aui-theme-default.TRON #header .local .primary > ul > li,
+.aui-theme-default.TRON .aui-header .aui-dropdown2-trigger {
+	background: #000000;
+	color: #ffffff;
+}
+
+.aui-theme-default.TRON .aui-header .aui-dropdown2-trigger:hover,
+.aui-theme-default.TRON .aui-header .aui-dropdown2-trigger:focus,
+.aui-theme-default.TRON .aui-header .aui-dropdown2-trigger:active {
+	background: #ffffff;
+	color: #000000;
+}
+
+.aui-theme-default.TRON .aui-header .aui-dropdown2-trigger:hover:after {
+	border-top-color: #000000;
+}
+
+.aui-theme-default.TRON #create_link {
+	position: relative;
+	padding-left: 30px;
+	color: #000;
+	text-shadow: none;
+}
+
+.aui-theme-default.TRON #create_link:hover,
+.aui-theme-default.TRON #create_link:focus,
+.aui-theme-default.TRON #create_link:active {
+	color: #ffffff;
+	text-shadow: inherit;
+}
+
+.aui-theme-default.TRON #create_link:after {
+	content: '';
+	display: block;
+	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/icon-tron-disc.png') no-repeat;
+	position: absolute;
+	height: 25px;
+	width: 25px;
+	top: 4px;
+	left: 3px;
+	background-size: 25px;
+}
+
+.aui-theme-default.TRON .aui-header .aui-button.aui-button-primary.aui-style {
+	background-color: #86fafa;
+}
+
+.aui-theme-default.TRON .aui-header .aui-quicksearch input[type='text'] {
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.aui-theme-default.TRON #header .local {
+	border-top: 3px solid #ffffff;
+}
+
+.aui-theme-default.TRON #header .local .primary > ul > li.selected {
+	background-color: #ffffff;
+}
+
+.aui-theme-default.TRON #header .local .primary > ul > li:hover {
+	background-color: #ffffff;
+}
+
+.aui-theme-default.TRON #header .local .primary > ul > li.selected > a,
+.aui-theme-default.TRON #header .local .primary > ul > li:hover > a {
+	color: #000; text-decoration: none;
+}
+
+.aui-theme-default.TRON #header .aui-header #logo a img,
+.aui-theme-default.TRON #announcement-banner,
+.aui-theme-default.TRON .ghx-empty * {
+	display: none;
+}
+.aui-theme-default.TRON #quickscrum .quickscrum-category {
+	color: #ffffff;
+}
+.aui-theme-default.TRON #quickscrum .quickscrum-category:hover {
+	color: #000000;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+.aui-theme-default.TRON #quickscrum {
+	color: #ffffff;
+}
+.aui-theme-default.TRON #header .aui-header #logo a {
+	height: 59px;
+	width: 320px;
+	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/banner-tron.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.aui-theme-default.TRON .ghx-empty {
+	background: #000000 url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/wallpaper-tron-alt.jpg') no-repeat 50%;
+	background-size: cover;
+	opacity: .3;
+}
+.aui-theme-default.TRON #ghx-pool,
+.aui-theme-default.TRON #ghx-chart-view .overlay {
+	background: #000000 url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/icon-tron-flynn-os.jpg') bottom left no-repeat;
+	background-size: 200px 200px;
+}
+.aui-theme-default.TRON .ghx-column-headers .ghx-column,
+.aui-theme-default.TRON .ghx-columns .ghx-column {
+	background-color: transparent;
+}
+.aui-theme-default.TRON #ghx-pool ul.ghx-column-headers {
+	background-color: #000000;
+}
+.aui-theme-default.TRON #ghx-pool ul.ghx-column-headers h2 {
+	color: #ffffff;
+	font-weight: normal;
+}
+.aui-theme-default.TRON #ghx-chart-view .overlay {
+	opacity: .3;
+}
+.aui-theme-default.TRON .ghx-column > .ghx-issue {
+    background: rgba(233, 245, 250, 1);
+}
+.aui-theme-default.TRON .ghx-column > .ghx-issue[data-label-names*=current-sprint-ticket] {
+	background: #ffffff;
+}
+.aui-theme-default.TRON .ghx-column > .ghx-issue[data-label-names*=current-sprint-ticket]:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: .12;
+	pointer-events: none;
+	background: transparent url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/watermark-tron.jpg') no-repeat 50% 50%;
+	background-size: 100%;
+}
+.aui-theme-default.TRON .ghx-column > .ghx-issue[data-label-names*=reopened-ticket] {
+	background: #FFD6D6 !important;
+}
+.aui-theme-default.TRON .ghx-column > .ghx-issue[data-label-names*=reopened-ticket] a {
+}
+.aui-theme-default.TRON .ghx-column > .ghx-issue[data-label-names*=reopened-ticket]:hover .ghx-end {
+	background: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+.aui-theme-default.TRON .ghx-column > .ghx-issue[data-label-names*=WebsDependency] > .ghx-end:after {
+	bottom: 53px;
+	right: 38px;
+	height: 10px;
+	width: 30px;
+	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/banner-wutang.png');
+	background-size: 30px 10px;
+	content: "";
+	display: block;
+	position: absolute;
+}
+
+.aui-theme-default.TRON .ghx-column > .ghx-issue[data-label-names*=NeedsDatabaseUpdate] > .ghx-end:before {
+	top: -6px;
+	right: 20px;
+	height: 30px;
+	width: 30px;
+	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/icon-wutang-blackOnWhite.jpg');
+	background-image: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/icon-wutang-blackOnWhite.jpg'), none;
+	background-size: 30px 30px;
+	content: "";
+	display: block;
+	position: absolute;
+}
+
+.aui-theme-default.TRON .ghx-column > .ghx-issue[data-label-names*=Tower] > .ghx-issue-fields:before {
+	bottom: 8px;
+	left: 10px;
+	height: 20px;
+	width: 20px;
+	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/icon-tower.png');
+	background-image: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/icon-tower.png'), none;
+	background-size: 20px 20px;
+	content: "";
+	display: block;
+	position: absolute;
+}
