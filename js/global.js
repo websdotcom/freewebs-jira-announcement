@@ -46,6 +46,12 @@ var WEBS = {
 			navCat: 'Identity',
 			bodyClass: 'mustang'
 		},
+		'TRON': {
+			id: 225,
+			nav: 'TRON',
+			navCat: 'Identity',
+			bodyClass: 'TRON'
+		},
 		'Watchmen': {
 			id: 193,
 			nav: 'Watchmen',
