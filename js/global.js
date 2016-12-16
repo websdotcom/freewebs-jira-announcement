@@ -75,7 +75,6 @@ var WEBS = {
 			navCat: 'Identity',
 			bodyClass: 'walkingdevs'
 		},
-
 		'Launch in Progress': {
 			id: 150,
 			nav: 'LIPs',
@@ -88,6 +87,12 @@ var WEBS = {
 			nav: 'Local Legend',
 			navCat: 'Marketing',
 			bodyClass: 'local'
+		},
+		'The Pioneers': {
+			id: 222,
+			nav: 'The Pioneers',
+			navCat: 'Marketing',
+			bodyClass: 'pioneers'
 		},
 		'Breaking Ads': {
 			id: 152,
