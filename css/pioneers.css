@@ -1,0 +1,47 @@
+.aui-theme-default.pioneers #header .aui-header,
+.aui-theme-default.pioneers #header .aui-header .secondary>ul>li,
+.aui-theme-default.pioneers .ghx-hero li a:hover,
+.aui-theme-default.pioneers .ghx-modes .button:hover,
+.aui-theme-default.pioneers .ghx-modes .button.active { background: #000; }
+.aui-theme-default.pioneers #header .aui-header {
+  background: url("http://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/pioneers/mountains.png") repeat-x #000;
+  background-size: 500px;
+  background-position-y: 35px;
+  position: relative;
+}
+.aui-theme-default.pioneers #header .aui-header:after {
+  content: '';
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 60px;
+  bottom: 0;
+  right: 200px;
+  background: url("http://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/pioneers/cart.png") bottom right no-repeat;
+  background-size: contain;
+}
+.aui-theme-default.pioneers #header .pioneers,
+.aui-theme-default.pioneers #header .pioneers .primary>ul>li,
+.aui-theme-default.pioneers #header .aui-header-primary { position: relative; }
+.aui-theme-default.pioneers #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span { background: #fc6621; }
+.aui-theme-default.pioneers #header .pioneers { border-top: 1px solid #a10b36; }
+.aui-theme-default.pioneers #header .pioneers .primary>ul>li.selected { background-color: #F0F0F0; }
+.aui-theme-default.pioneers #header .aui-header-primary .aui-nav { position: absolute; top: 0px; left: 50px;}
+.aui-theme-default.pioneers #header .aui-header #logo { position: relative; height: 15vh; }
+.aui-theme-default.pioneers #header .aui-header #logo a { position: absolute; bottom: 5px; left: 0; height: 50px; width: 465px; background: url("http://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/pioneers/pioneers-text.png") bottom left no-repeat; visibility: visible !important; background-size: contain; }
+.aui-theme-default.pioneers #header .aui-header #logo a img,
+.aui-theme-default.pioneers #announcement-banner { display: none; }
+.aui-theme-default.pioneers .ghx-empty * { display:none; }
+.aui-theme-default.pioneers .ghx-empty {
+	background-color: #243a4f;
+	opacity: .3;
+}
+.aui-theme-default.pioneers .ghx-column > .ghx-issue {
+  background: rgba(233, 245, 250, 1);
+}
+.aui-theme-default.pioneers .ghx-column > .ghx-issue[data-label-names*=current-sprint-ticket] {
+  background: #ffffff;
+}
+.aui-theme-default.pioneers .ghx-column > .ghx-issue[data-label-names*=carry] {
+  background: #FFB6C1;
+}
