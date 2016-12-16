@@ -46,12 +46,6 @@ var WEBS = {
 			navCat: 'Identity',
 			bodyClass: 'mustang'
 		},
-		'TRON': {
-			id: 225,
-			nav: 'TRON',
-			navCat: 'Identity',
-			bodyClass: 'TRON'
-		},
 		'Watchmen': {
 			id: 193,
 			nav: 'Watchmen',
@@ -93,7 +87,7 @@ var WEBS = {
 			nav: 'The Pioneers',
 			navCat: 'Marketing',
 			bodyClass: 'pioneers'
-		}
+		},
 		'Breaking Ads': {
 			id: 152,
 			nav: 'Breaking Ads',
