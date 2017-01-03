@@ -34,6 +34,12 @@ var WEBS = {
 			bodyClass: 'moonsharks',
 			moonSharkBoard: true,
 		},
+		'ReBoot': {
+			id: 220,
+			nav: 'ReBoot',
+			navCat: 'Identity',
+			bodyClass: 'ReBoot'
+		},
 		'SPECTRE': {
 			id: 138,
 			nav: 'SPECTRE',
