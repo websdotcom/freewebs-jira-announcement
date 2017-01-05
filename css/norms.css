@@ -1,0 +1,22 @@
+.aui-theme-default.norms #header nav.aui-header {
+  position: relative;
+}
+
+.aui-theme-default.norms #header .aui-header #logo a {
+  position: absolute;
+  top: 0; right: 0; bottom: 0; left: 0;
+  margin: auto;
+  width: 280px;
+  height: 100px;
+  background-color: #0d0009;
+  background-image: url('http://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/norms/banner.jpg');
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.aui-theme-default.norms .ghx-work {
+  background-color: #000;
+  background-image: url('http://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/norms/background.jpg');
+  background-position: top center;
+  background-size: 75%;
+}
