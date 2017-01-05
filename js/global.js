@@ -27,12 +27,11 @@ var WEBS = {
 			moonSharkBoard: true,
 			suppressStoryPoints: true
 		},
-		'Moon Sharks Scrum': {
+		'Norms': {
 			id: 179,
-			nav: 'Moon Sharks',
+			nav: 'Norms',
 			navCat: 'Identity',
-			bodyClass: 'moonsharks',
-			moonSharkBoard: true,
+			bodyClass: 'norms',
 		},
 		'ReBoot': {
 			id: 220,
