@@ -1,6 +1,105 @@
+/* hide vistaprint digital image on dashboard home link */
+.aui-theme-default.norms .aui-header .aui-header-logo img {
+  display: none;
+}
+
+/* replace dashboard home link with norms banner */
+.aui-theme-default.norms .aui-header .aui-header-logo a {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 160px;
+  height: 100%;
+  outline: none;
+  background-color: transparent !important;
+  background-image: url('http://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/norms/banner-text.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.aui-theme-default.norms .aui-header {
+  background-color: #0d0009;
+}
+
+@media (max-width: 1100px) {
+  .aui-theme-default.norms .aui-header .aui-header-logo a {
+    display: none;
+  }
+}
+
+/* beer! */
+.aui-theme-default.norms .aui-header .aui-header-logo a:after {
+  content: '';
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: calc(100% + 4px);
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  background-image: url('http://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/norms/banner-beer.png');
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.aui-theme-default.norms .aui-header .aui-header-logo a:focus:after,
+.aui-theme-default.norms .aui-header .aui-header-logo a:hover:after {
+  animation: cheers 400ms infinite alternate ease-in-out;
+}
+
+@keyframes cheers {
+  from {
+    transform: translate3d(-20%, 0, 0) rotate3d(0, 0, 1, -5deg);
+  }
+
+  to {
+    transform: translate3d(20%, 0, 0) rotate3d(0, 0, 1, 5deg);
+  }
+}
+
+/* correct colors for label/list hover/focus states */
+.aui-theme-default.norms .aui-header .aui-quicksearch input[type='text'] {
+  background: rgba(255,255,255,0.2);
+}
+
+.aui-theme-default.norms .aui-header .aui-quicksearch input[type='text'][type='text']:focus {
+  background: rgba(255,255,255,0.15);
+  color: #fff;
+}
+
+.aui-theme-default.norms .aui-header .aui-dropdown2-trigger:hover,
+.aui-theme-default.norms .aui-header .aui-dropdown2-trigger:focus,
+.aui-theme-default.norms .aui-header .aui-dropdown2-trigger.active,
+.aui-theme-default.norms .aui-header a:hover,
+.aui-theme-default.norms .aui-header a:focus {
+  background-color: #3d333a;
+}
+
+.aui-theme-default.norms .aui-dropdown2.aui-style-default:hover .aui-dropdown2-checkbox:not(.aui-dropdown2-disabled):hover,
+.aui-theme-default.norms .aui-dropdown2.aui-style-default:hover .aui-dropdown2-radio:not(.aui-dropdown2-disabled):hover,
+.aui-theme-default.norms .aui-dropdown2.aui-style-default:hover a:not(.aui-dropdown2-disabled):hover {
+  background-color: #f5ac00;
+}
+
+/* hide pool background so image background shows through */
+.aui-theme-default.norms #ghx-pool,
+.aui-theme-default.norms .ghx-columns,
+.aui-theme-default.norms .ghx-columns .ghx-column,
+#jira.ghx-contrast-high.aui-theme-default.norms .ghx-column,
+#jira.ghx-contrast-high.aui-theme-default.norms .ghx-columns .ghx-column:nth-child(even) {
+  background-color: transparent;
+}
+
+/* show norm as background image */
 .aui-theme-default.norms .ghx-work {
   background-color: #000;
   background-image: url('http://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/norms/background.jpg');
   background-position: top center;
-  background-size: 75%;
+  background-repeat: no-repeat;
+  background-size: 60%;
 }
