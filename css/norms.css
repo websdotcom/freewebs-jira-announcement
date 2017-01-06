@@ -22,6 +22,7 @@
 }
 
 .aui-theme-default.norms .aui-header {
+  position: relative;
   background-color: #0d0009;
 }
 
