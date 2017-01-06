@@ -1,0 +1,201 @@
+/* Royal Blue: #0b2afb
+   Cyan: #2af1fd
+   Middle Blue: #1dabfc */
+
+/* Buttons */
+.aui-theme-default.ReBoot #gh #ghx-header .aui-button,
+.aui-theme-default.ReBoot #gh #ghx-header a.aui-button,
+.aui-theme-default.ReBoot #gh #ghx-header .aui-button:visited {
+	background-color: #ffffff;
+	border-color: #000000;
+}
+.aui-theme-default.ReBoot #gh #ghx-header .aui-button:focus,
+.aui-theme-default.ReBoot #gh #ghx-header .aui-button:hover,
+.aui-theme-default.ReBoot #gh #ghx-header .aui-button-subtle.aui-button:focus,
+.aui-theme-default.ReBoot #gh #ghx-header .aui-button-subtle.aui-button:hover {
+	background-color: #0b2afb;
+	border-color: #000000;
+}
+
+.aui-theme-default.ReBoot #header .aui-header,
+.aui-theme-default.ReBoot #header .aui-header .secondary>ul>li,
+.aui-theme-default.ReBoot #header .local,
+.aui-theme-default.ReBoot #header .local .primary > ul > li,
+.aui-theme-default.ReBoot #header .aui-header .secondary>ul>li:hover>span.drop-wrap>a:hover>span,
+.aui-theme-default.ReBoot .ghx-hero li a:hover,
+.aui-theme-default.ReBoot .ghx-modes .button:hover,
+.aui-theme-default.ReBoot .ghx-modes .button.active { background: #000000; }
+
+.aui-theme-default.ReBoot #gh #ghx-content-main #ghx-epic-column {
+	background-color: #2af1fd;
+}
+
+/* Sidebar */
+.aui-theme-default.ReBoot .aui-sidebar .aui-sidebar-wrapper {
+	border-color: #000000;
+	background-color: #ffffff;
+	color: #000000;
+}
+.aui-theme-default.ReBoot .aui-sidebar .aui-sidebar-footer,
+.aui-theme-default.ReBoot .aui-sidebar .aui-sidebar-submenu .aui-sidebar-footer {
+	background-color: #ffffff;
+	color: #000000;
+}
+.aui-theme-default.ReBoot .aui-sidebar .aui-sidebar-footer>.aui-sidebar-settings-button:hover,
+.aui-theme-default.ReBoot .aui-sidebar .aui-sidebar-footer>.aui-sidebar-toggle:hover,
+.aui-theme-default.ReBoot .aui-sidebar .aui-sidebar-footer>.aui-sidebar-settings-button:focus,
+.aui-theme-default.ReBoot .aui-sidebar .aui-sidebar-footer>.aui-sidebar-toggle:focus,
+.aui-theme-default.ReBoot .aui-sidebar .aui-navgroup-horizontal .aui-nav>li a:focus,
+.aui-theme-default.ReBoot .aui-sidebar .aui-navgroup-vertical .aui-nav>li>a:focus,
+.aui-theme-default.ReBoot .aui-sidebar .aui-nav-vertical>li>a:focus,
+.aui-theme-default.ReBoot .aui-sidebar .aui-navgroup-horizontal .aui-nav>li a:hover,
+.aui-theme-default.ReBoot .aui-sidebar .aui-navgroup-vertical .aui-nav>li>a:hover,
+.aui-theme-default.ReBoot .aui-sidebar .aui-nav-vertical>li>a:hover,
+.aui-theme-default.ReBoot .aui-sidebar.aui-is-hover .aui-sidebar-footer>.aui-sidebar-toggle,
+.aui-theme-default.ReBoot .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a,
+.aui-theme-default.ReBoot .aui-sidebar .aui-navgroup-vertical .aui-nav .aui-nav-selected a:hover {
+	background-color: #2af1fd;
+	color: #000000;
+	border-color: #ffffff;
+}
+
+/* Page Sub-Header */
+.aui-theme-default.ReBoot #gh {
+	background: #0b2afb;
+	color: #ffffff;
+}
+.aui-theme-default.ReBoot #gh #ghx-view-selector #ghx-board-name { color: #ffffff; }
+.aui-theme-default.ReBoot #gh #ghx-view-selector span.subnav-trigger { color: #ffffff; }
+.aui-theme-default.ReBoot #subnav-title { color: #ffffff; }
+
+
+/* Quick Filter Links & Buttons */
+.aui-theme-default.ReBoot #gh #ghx-content-main .ghx-controls-filters dt { color: #ffffff; }
+.aui-theme-default.ReBoot #gh #ghx-content-main .ghx-controls-filters dd a { color: #86fafa; }
+.aui-theme-default.ReBoot #gh #ghx-content-main .ghx-controls-filters dd a:hover {
+	color: #000000;
+	background-color: #ffffff;
+	border-color: #ffffff;
+}
+.aui-theme-default.ReBoot #gh #ghx-content-main .ghx-controls-filters dd a.ghx-active {
+	background-color: #86fafa;
+	color: #000000;
+}
+.aui-theme-default.ReBoot #gh #ghx-content-main .ghx-controls-filters dd a.ghx-active:hover {
+	color: #ffffff;
+	border-color: #ffffff;
+}
+
+.aui-layout.ReBoot #header .aui-header .primary>ul>li>a,
+.aui-layout.ReBoot #header .aui-header .secondary>ul>li>a,
+.aui-layout.ReBoot #header .local .primary>ul>li>a,
+.aui-layout.ReBoot #header .local .secondary>ul>li>a,
+.aui-theme-default.ReBoot #header .local .primary > ul > li,
+.aui-theme-default.ReBoot .aui-header .aui-dropdown2-trigger {
+	background: #0b2afb;
+	color: #ffffff;
+}
+
+.aui-theme-default.ReBoot .aui-header .aui-dropdown2-trigger:hover,
+.aui-theme-default.ReBoot .aui-header .aui-dropdown2-trigger:focus,
+.aui-theme-default.ReBoot .aui-header .aui-dropdown2-trigger:active {
+	background: #ffffff;
+	color: #000000;
+}
+
+.aui-theme-default.ReBoot .aui-header .aui-dropdown2-trigger:hover:after {
+	border-top-color: #000000;
+}
+
+.aui-theme-default.ReBoot .aui-header .aui-button.aui-button-primary.aui-style {
+	background-color: #86fafa;
+}
+
+.aui-theme-default.ReBoot .aui-header .aui-quicksearch input[type='text'] {
+	background: rgba(255, 255, 255, 0.15);
+}
+
+.aui-theme-default.ReBoot #header .local {
+	border-top: 3px solid #ffffff;
+}
+
+.aui-theme-default.ReBoot #header .local .primary > ul > li.selected {
+	background-color: #ffffff;
+}
+
+.aui-theme-default.ReBoot #header .local .primary > ul > li:hover {
+	background-color: #ffffff;
+}
+
+.aui-theme-default.ReBoot #header .local .primary > ul > li.selected > a,
+.aui-theme-default.ReBoot #header .local .primary > ul > li:hover > a {
+	color: #000; text-decoration: none;
+}
+
+.aui-theme-default.ReBoot #header .aui-header #logo a img,
+.aui-theme-default.ReBoot #announcement-banner,
+.aui-theme-default.ReBoot .ghx-empty * {
+	display: none;
+}
+.aui-theme-default.ReBoot #quickscrum .quickscrum-category {
+	color: #ffffff;
+}
+.aui-theme-default.ReBoot #quickscrum .quickscrum-category:hover {
+	color: #000000;
+	background-color: #ffffff;
+	text-decoration: none;
+}
+.aui-theme-default.ReBoot #quickscrum {
+	color: #ffffff;
+}
+.aui-theme-default.ReBoot #header .aui-header #logo a {
+	height: 59px;
+	width: 320px;
+	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/banner-reboot.jpg');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+.aui-theme-default.ReBoot .ghx-column-headers .ghx-column,
+.aui-theme-default.ReBoot .ghx-columns .ghx-column {
+	background-color: transparent;
+}
+.aui-theme-default.ReBoot #ghx-pool ul.ghx-column-headers {
+	background-color: #0b2afb;
+}
+.aui-theme-default.ReBoot #ghx-pool ul.ghx-column-headers h2 {
+	color: #ffffff;
+	font-weight: normal;
+}
+.aui-theme-default.ReBoot #ghx-chart-view .overlay {
+	opacity: .3;
+}
+.aui-theme-default.ReBoot .ghx-column > .ghx-issue {
+    background: rgba(233, 245, 250, 1);
+}
+.aui-theme-default.ReBoot .ghx-column > .ghx-issue[data-label-names*=current-sprint-ticket] {
+	background: #ffffff;
+}
+.aui-theme-default.ReBoot .ghx-column > .ghx-issue[data-label-names*=current-sprint-ticket]:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000000;
+	opacity: .12;
+	pointer-events: none;
+	background: transparent url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/watermark-tron.jpg') no-repeat 50% 50%;
+	background-size: 100%;
+}
+.aui-theme-default.ReBoot .ghx-column > .ghx-issue[data-label-names*=reopened-ticket] {
+	background: #FFD6D6 !important;
+}
+.aui-theme-default.ReBoot .ghx-column > .ghx-issue[data-label-names*=reopened-ticket] a {
+}
+.aui-theme-default.ReBoot .ghx-column > .ghx-issue[data-label-names*=reopened-ticket]:hover .ghx-end {
+	background: transparent;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
