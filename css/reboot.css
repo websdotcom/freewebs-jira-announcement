@@ -3,74 +3,64 @@
    Middle Blue: #1dabfc */
 
 /* hide vistaprint digital image on dashboard home link */
-.aui-theme-default.norms .aui-header .aui-header-logo img {
-  display: none;
+.aui-theme-default.ReBoot .aui-header .aui-header-logo img {
+	display: none;
+}
+
+.aui-theme-default.ReBoot .aui-nav {
+	margin-left: 10px;
 }
 
 /* replace dashboard home link with norms banner */
-.aui-theme-default.norms .aui-header .aui-header-logo a {
-  position: absolute;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  margin: auto;
-  width: 160px;
-  height: 100%;
-  outline: none;
-  background-color: #0b2afb;
-  background-image: url('http://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/banner-reboot.png');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
+.aui-theme-default.ReBoot .aui-header .aui-header-logo a {
+	height: 50px;
+	width: 70px;
+	outline: none;
+	background-color: transparent;
+	background-image: url('//cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/banner-reboot.png');
+	background-size: contain;
+	background-position: left;
+	background-repeat: no-repeat;
 }
 
-.aui-theme-default.norms .aui-header {
+.aui-theme-default.ReBoot .aui-header {
   position: relative;
-  background-color: #0d0009;
+  background: linear-gradient(to right, #0b2afb , #2af1fd);
 }
 
 @media (max-width: 1100px) {
-  .aui-theme-default.norms .aui-header .aui-header-logo a {
+  .aui-theme-default.ReBoot .aui-header .aui-header-logo a {
     display: none;
   }
 }
 
 /* correct colors for label/list hover/focus states */
-.aui-theme-default.norms .aui-header .aui-quicksearch input[type='text'] {
+.aui-theme-default.ReBoot .aui-header .aui-quicksearch input[type='text'] {
   background: rgba(255,255,255,0.2);
 }
 
-.aui-theme-default.norms .aui-header .aui-quicksearch input[type='text'][type='text']:focus {
+.aui-theme-default.ReBoot .aui-header .aui-quicksearch input[type='text'][type='text']:focus {
   background: rgba(255,255,255,0.15);
   color: #fff;
 }
 
-.aui-theme-default.norms .aui-header .aui-dropdown2-trigger:hover,
-.aui-theme-default.norms .aui-header .aui-dropdown2-trigger:focus,
-.aui-theme-default.norms .aui-header .aui-dropdown2-trigger.active,
-.aui-theme-default.norms .aui-header a:hover,
-.aui-theme-default.norms .aui-header a:focus {
-  background-color: #3d333a;
-}
-
-.aui-theme-default.norms .aui-dropdown2.aui-style-default:hover .aui-dropdown2-checkbox:not(.aui-dropdown2-disabled):hover,
-.aui-theme-default.norms .aui-dropdown2.aui-style-default:hover .aui-dropdown2-radio:not(.aui-dropdown2-disabled):hover,
-.aui-theme-default.norms .aui-dropdown2.aui-style-default:hover a:not(.aui-dropdown2-disabled):hover {
+.aui-theme-default.ReBoot .aui-dropdown2.aui-style-default:hover .aui-dropdown2-checkbox:not(.aui-dropdown2-disabled):hover,
+.aui-theme-default.ReBoot .aui-dropdown2.aui-style-default:hover .aui-dropdown2-radio:not(.aui-dropdown2-disabled):hover,
+.aui-theme-default.ReBoot .aui-dropdown2.aui-style-default:hover a:not(.aui-dropdown2-disabled):hover {
   background-color: #f5ac00;
 }
 
 /* hide pool background so image background shows through */
-.aui-theme-default.norms #ghx-pool,
-.aui-theme-default.norms .ghx-columns,
-.aui-theme-default.norms .ghx-columns .ghx-column,
-#jira.ghx-contrast-high.aui-theme-default.norms .ghx-column,
-#jira.ghx-contrast-high.aui-theme-default.norms .ghx-columns .ghx-column:nth-child(even) {
+.aui-theme-default.ReBoot #ghx-pool,
+.aui-theme-default.ReBoot .ghx-columns,
+.aui-theme-default.ReBoot .ghx-columns .ghx-column,
+#jira.ghx-contrast-high.aui-theme-default.ReBoot .ghx-column,
+#jira.ghx-contrast-high.aui-theme-default.ReBoot .ghx-columns .ghx-column:nth-child(even) {
   background-color: transparent;
 }
 
 /* show norm as background image */
-.aui-theme-default.norms .ghx-work {
+.aui-theme-default.ReBoot .ghx-work {
   background-color: #000;
   background-image: url('http://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/wallpaper-reboot.jpg');
   background-position: top center;
