@@ -49,3 +49,10 @@
 .aui-theme-default.ReBoot .aui-dropdown2.aui-style-default:hover a:not(.aui-dropdown2-disabled):hover {
   background-color: #f5ac00;
 }
+
+.aui-theme-default.ReBoot .ghx-column > .ghx-issue {
+    background: rgba(233, 245, 250, 1);
+}
+.aui-theme-default.ReBoot .ghx-column > .ghx-issue[data-label-names*=current-sprint-ticket] {
+	background: #ffffff;
+}
