@@ -32,13 +32,15 @@ var WEBS = {
 			nav: 'Norms',
 			navCat: 'Identity',
 			bodyClass: 'norms',
+			logoLink: true
 		},
 		'ReBoot': {
 			id: 220,
 			nav: 'ReBoot',
 			navCat: 'Identity',
 			bodyClass: 'ReBoot',
-			logoLink: '//jira.freewebs.com/secure/RapidBoard.jspa?rapidView=220&quickFilter=919'
+			defaultFilters: [919],
+			logoLink: true
 		},
 		'SPECTRE': {
 			id: 138,
@@ -56,7 +58,8 @@ var WEBS = {
 			id: 225,
 			nav: 'TRON',
 			navCat: 'Identity',
-			bodyClass: 'TRON'
+			bodyClass: 'TRON',
+			logoLink: true
 		},
 		'Watchmen': {
 			id: 193,
@@ -98,7 +101,8 @@ var WEBS = {
 			id: 222,
 			nav: 'The Pioneers',
 			navCat: 'Marketing',
-			bodyClass: 'pioneers'
+			bodyClass: 'pioneers',
+			logoLink: true
 		},
 		'Breaking Ads': {
 			id: 152,
@@ -195,7 +199,8 @@ var WEBS = {
 		},
 		'Spoon': {
 			id: 183,
-			bodyClass: 'spoon'
+			bodyClass: 'spoon',
+			logoLink: true
 		},
 		'Support': {
 			id: 148,
@@ -244,7 +249,16 @@ var WEBS = {
 
 		// Update url of header logo link
 		if (WEBS.currentBoard.logoLink) {
-			jQuery('#logo > a').attr('href', WEBS.currentBoard.logoLink);
+			// Default to the team's board page
+			var href = '//jira.freewebs.com/secure/RapidBoard.jspa?rapidView=' + WEBS.currentBoard.id;
+			if (WEBS.currentBoard.logoLink !== true) {
+				href = WEBS.currentBoard.logoLink;
+			} else if (WEBS.currentBoard.defaultFilters) {
+				WEBS.currentBoard.defaultFilters.forEach(function (filterId) {
+					href += ('&quickFilter=' + filterId);
+				});
+			}
+			jQuery('#logo > a').attr('href', href);
 		}
 
 		// Annoying squirrel crap
