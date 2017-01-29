@@ -37,7 +37,8 @@ var WEBS = {
 			id: 220,
 			nav: 'ReBoot',
 			navCat: 'Identity',
-			bodyClass: 'ReBoot'
+			bodyClass: 'ReBoot',
+			logoLink: '//jira.freewebs.com/secure/RapidBoard.jspa?rapidView=220&quickFilter=919'
 		},
 		'SPECTRE': {
 			id: 138,
@@ -157,9 +158,9 @@ var WEBS = {
 			bodyClass: 'dangerrr',
 			customize: function() {
 				jQuery(window).resize(jQuery.proxy(function() {
-					this.updateHeaders();
-                                }, this));
-                                this.updateHeaders();
+						this.updateHeaders();
+					}, this));
+				this.updateHeaders();
 			},
 			updateHeaders: function() {
 				jQuery('.aui-theme-default.dangerrr #header .aui-header #logo a').css({
@@ -239,6 +240,11 @@ var WEBS = {
 		// Add class to body
 		if (WEBS.currentBoard.bodyClass) {
 			jQuery('body').addClass(WEBS.currentBoard.bodyClass);
+		}
+
+		// Update url of header logo link
+		if (WEBS.currentBoard.logoLink) {
+			jQuery('#logo > a').attr('href', WEBS.currentBoard.logoLink);
 		}
 
 		// Annoying squirrel crap
@@ -362,13 +368,13 @@ var WEBS = {
 		// The nav links are not useful right now and out of date
 		// Hiding this unless someone needs it and wants to update the links
 		// WEBS.addQuickScrum();
-                WEBS.initAutoRefresh();
+		WEBS.initAutoRefresh();
 
 	},
 
 	onDomReady: function() {
 		WEBS.initJiraBoard();
-                WEBS.doBitPoints();
+		WEBS.doBitPoints();
 		setTimeout(WEBS.doShowPts, 100);  //iframes are not recognized on DOMReady
 	},
 
