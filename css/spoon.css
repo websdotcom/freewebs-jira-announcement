@@ -1,95 +1,18 @@
-/* @blue0: #c9e9f5 */
-/* @blueRgb0: 196, 18, 96 */
-/* @blue1: #acdcf0 */
-/* @blueRgb1: 198, 28, 94 */
-/* @blue2: #83cbe8 */
-/* @blueRgb2: 197, 44, 91 */
-/* @blue3: #30a8d9 */
-/* @blueRgb3: 197, 78, 85 */
-
-/* @orange: #E4A41D */
-/* @orageRgb: 228, 164, 29 */
-
-/* roughly ordered top of page to bottom */
-
-.aui-theme-default.spoon .aui-sidebar-wrapper,
-.aui-theme-default.spoon #announcement-banner { /* outer chrome */
-  background-color: #92B4D1
+.aui-theme-default.spoon #announcement-banner {
+  display: none;
 }
 
-.aui-theme-default.spoon #ghx-header,
-.aui-theme-default.spoon #ghx-operations,
-.aui-theme-default.spoon #ghx-column-headers,
-.aui-theme-default.spoon #ghx-header { /* headers */
-  background-color: #5282AC !important;
-  color: #FAFAFA;
-}
-.aui-theme-default.spoon #ghx-header h1,
-.aui-theme-default.spoon #ghx-header h2,
-.aui-theme-default.spoon #ghx-header h3,
-.aui-theme-default.spoon #ghx-header h4 {
-  color: #FAFAFA;
-}
-.aui-theme-default.spoon .ghx-sprint-meta,
-.aui-theme-default.spoon .ghx-controls-list dt {
-  color: inherit;
-}
 .aui-theme-default.spoon #ghx-board-name {
-  color: inherit;
+  float: left;
+  margin-right: 0.5em;
+  font-size: 24px;
 }
 
-.aui-theme-default.spoon .ghx-controls-filters dd a {
-  color: #FFF176;
+.aui-theme-default.spoon .ghx-sprint-meta,
+.aui-theme-default.spoon .ghx-sprint-meta .time {
+  margin-right: 0px;
 }
 
-.aui-theme-default.spoon #ghx-rabid { /* filter bar */ }
-.aui-theme-default.spoon #ghx-pool { /* main background */
-  background-image: url("https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/spoon-city.jpg");
-  background-position: top center;
-  background-size: cover, contain;
-  background-repeat: no-repeat;
-  background-color: #AFDAEB;
-}
-.aui-theme-default.spoon #ghc-pool { /* lane title block */
-  background-color: rgba(228, 164, 29, 0.72) !important;
-}
-
-.aui-theme-default.spoon .ghx-column-headers .ghx-column,
-.aui-theme-default.spoon .ghx-columns .ghx-column { /* swimlane */
-  background: rgba(0, 0, 0, 0);
-  border-bottom: none;
-}
-.aui-theme-default.spoon .ghx-column-headers {
-  color: #FAFAFA;
-}
-.aui-theme-default.spoon .ghx-column {
-  background-color: rgba(240, 220, 40, 0.05) !important;
-}
-
-.aui-theme-default.spoon .ghx-issue {
-  background-color: #FFF176;
-  border: 1px solid rgba(240, 220, 40, 0.4);
-  margin-top: 3px;
-}
-.aui-theme-default.spoon .ghx-issue-content {
-  padding: 7px 10px 7px 38px;
-}
-.aui-theme-default.spoon .ghx-avatar-img {
-  /* box-shadow: 2px 2px 6px #30a8d9, 4px 4px 5px black !important; */
-  filter: sepia(55%);
-}
-.aui-theme-default.spoon .ghx-type img {
-  filter: sepia(45%);
-}
-.aui-theme-default.spoon .ghx-issue.ghx-selected .ghx-end {
-  box-shadow: 2px 2px 6px #30a8d9, 4px 4px 5px black !important;
-  /* background: #30a8d9; */
-}
-
-.aui-theme-default.spoon .aui-label {
-  filter: sepia(35%) brightness(0.8);
-}
-
-.aui-theme-default.spoon .ghx-priority[title=Major] img {
-  filter: hue-rotate(220) !important;
+.aui-theme-default.spoon .complete-sprint-container {
+  display: none;
 }
