@@ -305,6 +305,6 @@
 	position: absolute;
 }
 
-.aui-theme-default.TRON .ghx-days {
+.aui-theme-default.TRON .ghx-days b {
 	background-image: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/gh-days-tron.png');
 }
