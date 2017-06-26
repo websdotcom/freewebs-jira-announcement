@@ -307,4 +307,12 @@
 
 .aui-theme-default.TRON .ghx-days b {
 	background-image: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/gh-days-tron.png');
+	opacity: 0.66;
+}
+
+.aui-theme-default.TRON .ghx-days-0 .ghx-days b,
+.aui-theme-default.TRON .ghx-done .ghx-days b,
+.aui-theme-default.TRON .ghx-issue[data-label-names~='Kaizen'] .ghx-days b
+ {
+	background-image: none;
 }
