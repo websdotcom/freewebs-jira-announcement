@@ -317,3 +317,7 @@
  {
 	background-image: none;
 }
+
+.aui-theme-default.TRON #ghx-column-header-group.ghx-fixed {
+	z-index: 3;
+}
