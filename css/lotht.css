@@ -1,0 +1,16 @@
+.aui-theme-default.lotht #header .aui-header {
+	background: #bb994f;
+}
+.aui-theme-default.lotht #header .aui-header #logo a img,
+.aui-theme-default.lotht #announcement-banner,
+.aui-theme-default.lotht .ghx-empty * {
+	display: none;
+}
+.aui-theme-default.lotht #header .aui-header #logo a {
+	height: 183px;
+	width: 245px;
+	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/lotht-rocknroll.gif');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+

@@ -49,6 +49,13 @@ var WEBS = {
 			bodyClass: 'sonic',
 			logoLink: true
 		},
+		'Legends of the Hidden Template': {
+			id: 248,
+			nav: 'LOTHT',
+			navCat: 'Identity',
+			bodyClass: 'lotht',
+			logoLink: true
+		},
 		'SPECTRE': {
 			id: 138,
 			nav: 'SPECTRE',
