@@ -1,0 +1,12 @@
+.aui-theme-default.sonic #header .aui-header #logo a img,
+.aui-theme-default.sonic #announcement-banner,
+.aui-theme-default.sonic .ghx-empty * {
+	display: none;
+}
+.aui-theme-default.sonic #header .aui-header #logo a {
+	height: 110px;
+	width: 320px;
+	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/banner-sonic.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}

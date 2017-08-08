@@ -42,6 +42,13 @@ var WEBS = {
 			defaultFilters: [919],
 			logoLink: true
 		},
+		'Sonic Team': {
+			id: 247,
+			nav: 'Sonic',
+			navCat: 'Identity',
+			bodyClass: 'sonic',
+			logoLink: true
+		},
 		'SPECTRE': {
 			id: 138,
 			nav: 'SPECTRE',
