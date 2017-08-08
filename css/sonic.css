@@ -1,3 +1,6 @@
+.aui-theme-default.sonic #header .aui-header {
+	background: #0039B7;
+}
 .aui-theme-default.sonic #header .aui-header #logo a img,
 .aui-theme-default.sonic #announcement-banner,
 .aui-theme-default.sonic .ghx-empty * {
@@ -6,7 +9,8 @@
 .aui-theme-default.sonic #header .aui-header #logo a {
 	height: 110px;
 	width: 320px;
-	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/banner-sonic.png');
+	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/banner-sonic-inverted.png');
 	background-size: contain;
 	background-repeat: no-repeat;
 }
+
