@@ -1,5 +1,5 @@
 .aui-theme-default.lotht #header .aui-header {
-	linear-gradient(270deg, #bb994f, #372e31 86%)
+	background: linear-gradient(270deg, #bb994f, #372e31 86%)
 }
 .aui-theme-default.lotht #header .aui-header #logo a img,
 .aui-theme-default.lotht #announcement-banner,
