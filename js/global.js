@@ -42,6 +42,13 @@ var WEBS = {
 			defaultFilters: [919],
 			logoLink: true
 		},
+		'SeriousXM': {
+			id: 253,
+			nav: 'SeriousXM',
+			navCat: 'Identity',
+			bodyClass: 'seriousxm',
+			logoLink: true
+		},
 		'Sonic Team': {
 			id: 247,
 			nav: 'Sonic',

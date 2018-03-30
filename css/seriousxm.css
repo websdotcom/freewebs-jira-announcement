@@ -1,0 +1,16 @@
+.aui-theme-default.seriousxm #header .aui-header {
+	background-color: #00adef;
+}
+.aui-theme-default.seriousxm #header .aui-header #logo a img,
+.aui-theme-default.seriousxm #announcement-banner,
+.aui-theme-default.seriousxm .ghx-empty * {
+	display: none;
+}
+.aui-theme-default.seriousxm #header .aui-header #logo a {
+	height: 75px;
+	width: 150px;
+	background: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/master/img/icon-seriousxm-red.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+}
+
