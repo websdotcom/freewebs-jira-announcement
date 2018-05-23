@@ -281,15 +281,6 @@ var WEBS = {
 			}
 			jQuery('#logo > a').attr('href', href);
 		}
-
-		// Annoying squirrel crap
-		/*
-		setInterval(function () {
-			if(Math.floor(Math.random()*500) == 1){
-				console.log('Flying squirrels are nocturnal, so they should only fly at night.');
-				jQuery('<img src="http://nickswider.com/jira/FlyingSquirrelsLarge.png" width="150" style="position:absolute; top:45%; right:0;">').appendTo("body").animate({right:'100%'}, 1300);
-			}
-		}, 3000);*/
 	},
 	fixHeaders: function() {
 		var $poolColumn = jQuery('#ghx-pool-column');
@@ -338,22 +329,6 @@ var WEBS = {
 					});
 				}
 			}
-		}
-	},
-
-	doBitPoints: function() {
-		if(jQuery('#key-val').length > 0) {
-			var ticketId = jQuery('#key-val').text();
-			var ticketTitle = jQuery('#summary-val').text();
-			var ticketPath = 'addTicketCookie?ticketSystem=jira&ticketHost=jira.freewebs.com&ticketID=' + ticketId;
-			ticketPath += '&ticketTitle=' + encodeURI(ticketTitle);
-
-			jQuery('<img/>', { src: 'http://bitpoints.io/' + ticketPath })
-				.css({ width: '1px', height: '1px', position: 'absolute' })
-				.appendTo('body');
-			//jQuery('<img/>', { src: 'http://localhost:3000/' + ticketPath })
-			//	.css({ width: '1px', height: '1px', position: 'absolute' })
-			//	.appendTo('body');
 		}
 	},
 
@@ -409,7 +384,6 @@ var WEBS = {
 
 	onDomReady: function() {
 		WEBS.initJiraBoard();
-		WEBS.doBitPoints();
 		setTimeout(WEBS.doShowPts, 100);  //iframes are not recognized on DOMReady
 	},
 
