@@ -1,0 +1,31 @@
+
+
+.aui-theme-default.bttf #ghx-pool {
+    background-image: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/img/bttf.png');
+    background-size: cover;
+}
+
+.aui-theme-default.norms .aui-header .aui-header-logo a {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 160px;
+    height: 100%;
+    outline: none;
+    background-color: transparent !important;
+    background-image: url('https://cdn.rawgit.com/websdotcom/freewebs-jira-announcement/img/bttf-logo.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.aui-theme-default.bttf .ghx-column-headers .ghx-column, .ghx-columns .ghx-column {
+    background: none;
+}
+
+.aui-theme-default.bttf .ghx-issue {
+    background-color: rgba(255, 255, 255, .9);
+}
