@@ -1,25 +1,8 @@
 
 
 .aui-theme-default.bttf #ghx-pool {
-    background-image: url('//uploads.documents.cimpress.io/v1/uploads/92a96ed8-9b08-40cf-8007-e32acf02d1a3~110/original?tenant=vbu-digital');
-    background-size: cover;
-}
-
-.aui-theme-default.bttf .aui-header .aui-header-logo a {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    margin: auto;
-    width: 160px;
-    height: 100%;
-    outline: none;
-    background-color: transparent !important;
     background-image: url('//uploads.documents.cimpress.io/v1/uploads/b1c7c534-5712-4fad-847f-b35903f2c296~110/original?tenant=vbu-digital');
-    background-size: contain;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .aui-theme-default.bttf .ghx-column-headers .ghx-column, .ghx-columns .ghx-column {
