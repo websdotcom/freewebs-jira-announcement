@@ -22,4 +22,7 @@
     }
     window.addEventListener('load', colorizeDays);
     colorizeDays();
+    setTimeout(colorizeDays, 200);
+    setTimeout(colorizeDays, 2000);
+    setTimeout(colorizeDays, 5000);
 })();
