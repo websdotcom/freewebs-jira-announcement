@@ -17,6 +17,7 @@
 
             if (daysInCol >= beginingOfBadDays) {
                 node.parentElement.style.backgroundColor = 'rgba(' + [255, 0, 0, Math.min(opacityFactor * daysInCol, maxOpacity)].join(', ') + ')'
+                node.parentElement.classList.add('psuedo-white-bg');
             }
         });
     }

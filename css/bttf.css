@@ -12,3 +12,12 @@
 .aui-theme-default.bttf .ghx-issue {
     background-color: rgba(255, 255, 255, .9);
 }
+
+.psuedo-white-bg:before {
+    content: '';
+    position: absolute;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
