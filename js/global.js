@@ -49,12 +49,6 @@ var WEBS = {
 			defaultFilters: [919],
 			logoLink: true
 		},
-		'RumblePonies': {
-			id: 215,
-			nav: 'RumblePonies',
-			navCat: 'Identity',
-			bodyClass: 'RumblePonies',
-		},
 		'SeriousXM': {
 			id: 253,
 			nav: 'SeriousXM',
